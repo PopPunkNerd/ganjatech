@@ -1,9 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "painting",
   "definition": {
     "texture": "weedleaf-painting16x16.png",
     "width": 16,
-    "height": 16
+    "height": 16,
+    "title": "Weed Leaf 3 2x 3 2",
+    "author": "Unknown"
   }
 }

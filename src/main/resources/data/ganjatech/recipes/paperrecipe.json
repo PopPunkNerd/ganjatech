@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "paper",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_fiber_item"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper",
+    "count": 2
+  }
+}

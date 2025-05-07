@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "ganjatech:hemp_fiber_item"
+    },
+    "title": {
+      "translate": "advancements.hemp_textil_achivements.title"
+    },
+    "description": {
+      "translate": "advancements.hemp_textil_achivements.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hemp_textil_achivements_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "ganjatech:woolrecipe",
+      "ganjatech:paperrecipe",
+      "ganjatech:stringrecipe",
+      "ganjatech:hemphatrecipe",
+      "ganjatech:hempoutfitbodyrecipe",
+      "ganjatech:hempsarouelrecipe",
+      "ganjatech:flip_flop_recipe"
+    ]
+  },
+  "parent": "ganjatech:weed_grower_advancement"
+}

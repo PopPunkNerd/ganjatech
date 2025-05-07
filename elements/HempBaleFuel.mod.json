@@ -1,10 +1,15 @@
 {
-  "_fv": 18,
-  "_type": "fuel",
+  "_fv": 77,
+  "_type": "itemextension",
   "definition": {
-    "power": 550,
-    "block": {
+    "item": {
       "value": "CUSTOM:HempBale"
-    }
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 550.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
   }
 }

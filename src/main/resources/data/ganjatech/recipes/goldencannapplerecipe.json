@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "goldencannapple",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:cannabutter_item"
+    },
+    "b": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "ganjatech:golden_cannapple",
+    "count": 1
+  }
+}

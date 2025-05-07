@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "plains",
+    "forest",
+    "river",
+    "jungle",
+    "sunflower_plains",
+    "flower_forest"
+  ],
+  "features": "ganjatech:indica_plant_spawning_feature",
+  "step": "surface_structures"
+}

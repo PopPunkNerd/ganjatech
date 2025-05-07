@@ -1,9 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "painting",
   "definition": {
     "texture": "bobmarley-painting48x48.png",
     "width": 48,
-    "height": 48
+    "height": 48,
+    "title": "Bob Marley 4 8x 4 8",
+    "author": "Unknown"
   }
 }

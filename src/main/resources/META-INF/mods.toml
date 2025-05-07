@@ -1,26 +1,29 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[47,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="ganjacraft"
-version="0.5 sativa cannapdate"
-displayName="GanjaCraft"
-credits="join the cannadiscord | contribute on github"
+modId="ganjatech"
+version="0.0.1"
+displayName="GanjaTech"
 displayURL="https://github.com/warlon-mhite/ganjacraft"
 logoFile="logo.png"
-authors="Warlon Mhite"
-description='''
-The most ambicious stoner mod in MineCraft history
-'''
+credits="join the cannadiscord | contribute on github"
+authors="PopPunkNerd"
+description="Weed growing and processing mod"
 
-[[dependencies.ganjacraft]]
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ganjatech]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
-    ordering="NONE"
+    versionRange="[1.20.1]"
+    ordering="AFTER"
     side="BOTH"
 
 
 
 
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

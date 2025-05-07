@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bread",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_flour"
+    }
+  },
+  "result": {
+    "item": "minecraft:bread",
+    "count": 1
+  }
+}

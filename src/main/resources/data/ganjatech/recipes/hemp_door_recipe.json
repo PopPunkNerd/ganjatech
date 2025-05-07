@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hempdoor",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_door",
+    "count": 1
+  }
+}

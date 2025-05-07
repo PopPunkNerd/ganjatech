@@ -1,10 +1,15 @@
 {
-  "_fv": 18,
-  "_type": "fuel",
+  "_fv": 77,
+  "_type": "itemextension",
   "definition": {
-    "power": 50,
-    "block": {
+    "item": {
       "value": "CUSTOM:HempStem"
-    }
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 50.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
   }
 }

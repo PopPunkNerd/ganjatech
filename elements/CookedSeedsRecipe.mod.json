@@ -1,12 +1,14 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 1.0,
-    "cookingTime": 100,
     "recipeRetstackSize": 1,
     "group": "cookedseeds",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
       "value": "CUSTOM:Weedseeds"

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "ganjatech:blocks/hemp_planks_woddy_stuff_fence",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ganjatech:hemp_planks_woddy_stuff_fence"
+        }
+      ]
+    }
+  ]
+}

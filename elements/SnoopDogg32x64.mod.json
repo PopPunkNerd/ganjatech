@@ -1,9 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "painting",
   "definition": {
     "texture": "snoopdogg-painting32x64.png",
     "width": 64,
-    "height": 32
+    "height": 32,
+    "title": "Snoop Dogg 3 2x 6 4",
+    "author": "Unknown"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hempbody",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_fiber_item"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_outfit_chestplate",
+    "count": 1
+  }
+}

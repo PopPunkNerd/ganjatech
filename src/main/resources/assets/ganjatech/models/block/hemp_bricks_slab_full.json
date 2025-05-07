@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "ganjatech:block/hempbrickstexture",
+    "bottom": "ganjatech:block/hempbrickstexture",
+    "top": "ganjatech:block/hempbrickstexture",
+    "side": "ganjatech:block/hempbrickstexture"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hempfencegate",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "ganjatech:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_planks_woddy_stuff_fence_gate",
+    "count": 1
+  }
+}

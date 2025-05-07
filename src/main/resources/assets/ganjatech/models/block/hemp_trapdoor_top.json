@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "ganjatech:block/hemp_trapdoor",
+    "particle": "ganjatech:block/hemp_trapdoor"
+  },
+  "render_type": "cutout_mipped"
+}

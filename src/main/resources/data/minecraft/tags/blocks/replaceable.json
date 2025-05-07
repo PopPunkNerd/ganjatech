@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "ganjatech:ref_oil_r",
+    "ganjatech:raw_oil_r",
+    "ganjatech:rterp",
+    "ganjatech:weedcrop_5",
+    "ganjatech:weedcrop_7",
+    "ganjatech:weedcrop_6top",
+    "ganjatech:weedcrop_6",
+    "ganjatech:weedcrop_5top",
+    "ganjatech:weedcrop_4top",
+    "ganjatech:weedcrop_3",
+    "ganjatech:weedcrop_2",
+    "ganjatech:weedcrop_1"
+  ]
+}

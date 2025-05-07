@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hemplegs",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_fiber_item"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_outfit_leggings",
+    "count": 1
+  }
+}

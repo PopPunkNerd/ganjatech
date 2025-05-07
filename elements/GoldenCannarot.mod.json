@@ -1,29 +1,56 @@
 {
-  "_fv": 18,
-  "_type": "food",
+  "_fv": 77,
+  "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "golden_cannarrot",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Golden Cannarot",
     "rarity": "UNCOMMON",
-    "specialInfo": [],
-    "creativeTab": {
-      "value": "CUSTOM:GanjaCraftCreativeTab"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:GanjaCraftCreativeTab"
+      }
+    ],
     "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "StartTimerGC"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectileDisableAmmoCheck": false,
+    "isFood": true,
     "nutritionalValue": 6,
     "saturation": 14.4,
-    "eatingSpeed": 32,
-    "resultItem": {
+    "eatResultItem": {
       "value": ""
     },
-    "forDogs": false,
+    "isMeat": false,
     "isAlwaysEdible": true,
     "animation": "eat",
-    "hasGlow": true,
-    "onEaten": {
-      "name": "StartTimerGC"
-    }
+    "isMusicDisc": false,
+    "musicDiscLengthInTicks": 0,
+    "musicDiscAnalogOutput": 0
   }
 }

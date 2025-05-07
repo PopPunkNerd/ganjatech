@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stick",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 6
+  }
+}

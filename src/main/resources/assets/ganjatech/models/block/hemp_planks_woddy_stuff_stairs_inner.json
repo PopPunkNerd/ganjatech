@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "ganjatech:block/hemp_planks",
+    "bottom": "ganjatech:block/hemp_planks",
+    "top": "ganjatech:block/hemp_planks",
+    "side": "ganjatech:block/hemp_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "packedpipe",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ganjatech:indica_bud"
+    },
+    {
+      "item": "ganjatech:weed_pipe"
+    }
+  ],
+  "result": {
+    "item": "ganjatech:indica_pipe",
+    "count": 1
+  }
+}

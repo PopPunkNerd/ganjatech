@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ganjatech:block/indicastage5top",
+    "particle": "ganjatech:block/indicastage5top"
+  },
+  "render_type": "cutout_mipped"
+}

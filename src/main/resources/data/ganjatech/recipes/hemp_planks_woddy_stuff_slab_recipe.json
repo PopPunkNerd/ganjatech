@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hempplanksslabs",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_planks_woddy_stuff_slab",
+    "count": 6
+  }
+}

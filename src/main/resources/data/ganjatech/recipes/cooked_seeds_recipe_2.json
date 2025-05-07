@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cookedseeds",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "ganjatech:sativa_seeds"
+  },
+  "result": "ganjatech:cooked_seeds"
+}

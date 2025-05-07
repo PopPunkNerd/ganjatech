@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ganjatech:baggie"
+    },
+    {
+      "item": "ganjatech:r_strain_dried_hq_bud"
+    }
+  ],
+  "result": {
+    "item": "ganjatech:r_strain_bagged_hq_bud",
+    "count": 1
+  }
+}

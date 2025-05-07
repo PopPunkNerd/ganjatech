@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "block",
   "definition": {
     "texture": "sativastage7top",
@@ -11,6 +11,7 @@
     "renderType": 12,
     "customModelName": "Cross model",
     "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,24 +33,26 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Sativa stage 4",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": "CUSTOM:SativaSeeds"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,
-    "canProvidePower": false,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "TALL_PLANTS"
@@ -57,6 +60,7 @@
     "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
+    "canProvidePower": false,
     "colorOnMap": "FOLIAGE",
     "creativePickItem": {
       "value": "CUSTOM:SativaSeeds"
@@ -71,24 +75,15 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "DESTROY",
     "isNotColidable": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "CUSTOM:CannabisLeafParticle"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
-    "particleCondition": {
-      "name": "WeedParticlesSpawn"
-    },
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -113,9 +108,10 @@
     "onDestroyedByExplosion": {
       "name": "SativaGrownCropByExplosion"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

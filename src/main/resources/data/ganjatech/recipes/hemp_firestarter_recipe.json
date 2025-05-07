@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "firestarter",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:honeycomb"
+    },
+    "b": {
+      "item": "ganjatech:hemp_fiber_item"
+    },
+    "c": {
+      "item": "minecraft:air"
+    },
+    "d": {
+      "item": "ganjatech:hempcrete"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_firestrater",
+    "count": 1
+  }
+}

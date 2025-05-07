@@ -1,9 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "painting",
   "definition": {
     "texture": "pineappleexpress-painting-32x48.png",
     "width": 32,
-    "height": 48
+    "height": 48,
+    "title": "Pineapple Express 4 8x 6 4",
+    "author": "Unknown"
   }
 }

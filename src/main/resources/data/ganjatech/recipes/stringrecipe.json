@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "string",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ganjatech:hemp_fiber_item"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 1
+  }
+}

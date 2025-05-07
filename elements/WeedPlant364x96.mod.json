@@ -1,9 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "painting",
   "definition": {
     "texture": "weedplant3-painting64x96.png",
     "width": 64,
-    "height": 96
+    "height": 96,
+    "title": "Weed Plant 3 6 4x 9 6",
+    "author": "Unknown"
   }
 }

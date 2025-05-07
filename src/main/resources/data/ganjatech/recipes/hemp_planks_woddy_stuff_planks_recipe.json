@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "hempplanks",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ganjatech:hempcrete"
+    },
+    {
+      "item": "ganjatech:hempcrete"
+    },
+    {
+      "item": "ganjatech:hempcrete"
+    },
+    {
+      "item": "ganjatech:hempcrete"
+    },
+    {
+      "item": "ganjatech:hempcrete"
+    },
+    {
+      "item": "ganjatech:hempcrete"
+    }
+  ],
+  "result": {
+    "item": "ganjatech:hemp_planks_woddy_stuff_planks",
+    "count": 1
+  }
+}

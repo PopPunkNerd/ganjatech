@@ -1,0 +1,35 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "ganjatech:weedseeds"
+    },
+    "title": {
+      "translate": "advancements.cannabis_seeds_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.cannabis_seeds_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cannabis_seeds_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "ganjatech:hemp_flour_recipe",
+      "ganjatech:bread_alt_recipe",
+      "ganjatech:cookie_alt_recipe",
+      "ganjatech:cooked_seeds_recipe",
+      "ganjatech:cooked_seeds_recipe_fire_camp",
+      "ganjatech:cooked_seeds_recipe_camp_fire",
+      "ganjatech:cooked_seeds_recipe_2"
+    ]
+  }
+}

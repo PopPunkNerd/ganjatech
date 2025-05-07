@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hempplanksstairs",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_planks_woddy_stuff_planks"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_planks_woddy_stuff_stairs",
+    "count": 4
+  }
+}

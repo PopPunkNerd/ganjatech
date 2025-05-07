@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "ganjatech:block/hemp_planks",
+    "particle": "ganjatech:block/hemp_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "concrete",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_dye"
+    },
+    "b": {
+      "item": "ganjatech:hempcrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+    "count": 4
+  }
+}

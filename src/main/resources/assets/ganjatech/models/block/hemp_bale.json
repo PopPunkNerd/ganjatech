@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ganjatech:block/hempbale_block_top-new",
+    "up": "ganjatech:block/hempbale_block_top-new",
+    "north": "ganjatech:block/hempbale-side-texture",
+    "east": "ganjatech:block/hempbale-side-texture",
+    "south": "ganjatech:block/hempbale-side-texture",
+    "west": "ganjatech:block/hempbale-side-texture",
+    "particle": "ganjatech:block/hempbale_block_top-new"
+  },
+  "render_type": "solid"
+}

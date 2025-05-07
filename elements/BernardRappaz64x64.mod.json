@@ -1,9 +1,11 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "painting",
   "definition": {
     "texture": "bernardrappaz-painting64x64.png",
     "width": 64,
-    "height": 64
+    "height": 64,
+    "title": "Bernard Rappaz 6 4x 6 4",
+    "author": "Unknown"
   }
 }

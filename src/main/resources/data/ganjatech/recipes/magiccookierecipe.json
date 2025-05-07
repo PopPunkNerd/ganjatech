@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magiccookie",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:cannabutter_item"
+    },
+    "b": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "ganjatech:magic_cookie",
+    "count": 1
+  }
+}

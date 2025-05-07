@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "particle": "ganjatech:block/hemp_planks",
+    "texture": "ganjatech:block/hemp_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "goldencannarot",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:cannabutter_item"
+    },
+    "b": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "result": {
+    "item": "ganjatech:golden_cannarot",
+    "count": 1
+  }
+}

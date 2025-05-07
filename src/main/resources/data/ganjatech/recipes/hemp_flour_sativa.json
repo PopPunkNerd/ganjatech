@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hempflour",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:sativa_seeds"
+    }
+  },
+  "result": {
+    "item": "ganjatech:hemp_flour",
+    "count": 1
+  }
+}

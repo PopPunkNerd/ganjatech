@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "hempstairs",
+  "count": 1,
+  "ingredient": {
+    "item": "ganjatech:hemp_bricks"
+  },
+  "result": "ganjatech:hemp_bricks_stairs"
+}

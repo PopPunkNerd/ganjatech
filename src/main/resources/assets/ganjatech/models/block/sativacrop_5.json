@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ganjatech:block/sativastage5bottom",
+    "particle": "ganjatech:block/sativastage5bottom"
+  },
+  "render_type": "cutout_mipped"
+}

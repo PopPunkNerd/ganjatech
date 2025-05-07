@@ -1,0 +1,9 @@
+{
+  "type": "ganjatech:structure_feature",
+  "config": {
+    "structure": "ganjatech:wildindica",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:structure_block"
+  }
+}

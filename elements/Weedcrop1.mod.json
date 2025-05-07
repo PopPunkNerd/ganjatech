@@ -1,5 +1,5 @@
 {
-  "_fv": 18,
+  "_fv": 77,
   "_type": "block",
   "definition": {
     "texture": "indicastage1",
@@ -11,6 +11,7 @@
     "renderType": 12,
     "customModelName": "Cross model",
     "rotationMode": 0,
+    "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
@@ -32,24 +33,26 @@
         "subtract": false
       }
     ],
+    "customProperties": [],
     "name": "Weedcrop stage 1",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "No creative tab entry"
-    },
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": "CUSTOM:Weedseeds"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canProvidePower": false,
+    "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
       "value": "PLANTS"
@@ -57,6 +60,7 @@
     "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": true,
+    "canProvidePower": false,
     "colorOnMap": "FOLIAGE",
     "creativePickItem": {
       "value": "CUSTOM:Weedseeds"
@@ -71,21 +75,15 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "DESTROY",
     "isNotColidable": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
       "value": "PLANT"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "vanillaToolTier": "STONE",
+    "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 0,
     "inventoryStackSize": 64,
@@ -107,9 +105,10 @@
     "onDestroyedByExplosion": {
       "name": "GrowingCropBlowingByExplosion"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,

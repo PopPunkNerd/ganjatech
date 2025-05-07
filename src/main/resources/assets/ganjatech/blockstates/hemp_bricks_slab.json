@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ganjatech:block/hemp_bricks_slab"
+    },
+    "type=top": {
+      "model": "ganjatech:block/hemp_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "ganjatech:block/hemp_bricks_slab_full"
+    }
+  }
+}

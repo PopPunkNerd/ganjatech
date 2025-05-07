@@ -1,0 +1,38 @@
+{
+  "smoking": {
+    "subtitle": "subtitles.smoking",
+    "sounds": [
+      {
+        "name": "ganjatech:smoking",
+        "stream": false
+      }
+    ]
+  },
+  "bonghit": {
+    "subtitle": "subtitles.bonghit",
+    "sounds": [
+      {
+        "name": "ganjatech:bonghit",
+        "stream": false
+      }
+    ]
+  },
+  "randomcoughing": {
+    "subtitle": "subtitles.randomcoughing",
+    "sounds": [
+      {
+        "name": "ganjatech:coughing",
+        "stream": false
+      }
+    ]
+  },
+  "ganjadisc": {
+    "subtitle": "subtitles.ganjadisc",
+    "sounds": [
+      {
+        "name": "ganjatech:ganjadisc",
+        "stream": true
+      }
+    ]
+  }
+}

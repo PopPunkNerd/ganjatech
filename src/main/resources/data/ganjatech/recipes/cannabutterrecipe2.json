@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "cannabutter",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 420,
+  "ingredient": {
+    "item": "ganjatech:indica_bud"
+  },
+  "result": "ganjatech:cannabutter_item"
+}

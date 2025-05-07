@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flower_pot",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "ganjatech:hemp_brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:flower_pot",
+    "count": 1
+  }
+}

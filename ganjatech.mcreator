@@ -1,0 +1,4546 @@
+{
+  "mod_elements": [
+    {
+      "name": "Weedseeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/WeedseedsItem.java",
+          "src/main/resources/assets/ganjatech/models/item/weedseeds.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Weedcrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/WeedcropBlock.java",
+          "src/main/java/net/mcreator/ganjatech/block/entity/WeedcropBlockEntity.java",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop.json",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_1.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_1.json",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop1Block.java",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_1.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_1.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop1BlockEntity.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop2BlockEntity.java",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop2Block.java",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_2.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_2.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_2.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_2.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop3Block.java",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_3.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop3BlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_3.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_3.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_3.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Spliff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indicaspliff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/indicaspliff.json",
+          "src/main/java/net/mcreator/ganjatech/item/SpliffItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "JointRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/rolling_spliff.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempStem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/hemp_stem.json",
+          "src/main/java/net/mcreator/ganjatech/item/HempStemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempFiber",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempfiber.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempFiberItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/HempFiberItemItem.java",
+          "src/main/resources/assets/ganjatech/models/item/hemp_fiber_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "WoolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/woolrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "PaperRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/paperrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_bricks.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_bricks.json",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_bricks.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempBricksBlock.java",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "StringRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/stringrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "StickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/stickrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbricksrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBrick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/HempBrickItem.java",
+          "src/main/resources/assets/ganjatech/models/item/hemp_brick.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempBrickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbrickrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBale",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/hemp_bale.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempBaleBlock.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_bale.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bale.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_bale.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempBaleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbalerecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SeedsRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SeedsRightClickProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GrassBrokenGivesSeeds",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GrassBrokenGivesSeedsProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GrowingCropBlowingByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GrowingCropBlowingByExplosionProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GrownCropByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GrownCropByExplosionProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "UpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/UpdateTickProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GrownCropByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GrownCropByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "IndicaBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/indica_bud.json",
+          "src/main/java/net/mcreator/ganjatech/item/IndicaBudItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "IndicaSpliffEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/IndicaSpliffEffectProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempOutfit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/hemp_outfit_helmet.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_outfit_chestplate.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_outfit_boots.json",
+          "src/main/java/net/mcreator/ganjatech/item/HempOutfitItem.java",
+          "src/main/resources/assets/ganjatech/models/item/hemp_outfit_leggings.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "EmptyBong",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/empty_bong.json",
+          "src/main/java/net/mcreator/ganjatech/item/EmptyBongItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "IndicaBong",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/indica_bong.json",
+          "src/main/java/net/mcreator/ganjatech/item/IndicaBongItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BongRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/bongrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "IndicaBongRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/indicabongrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "IndicaBongHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/IndicaBongHitProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GreenDye",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/greendye.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempHatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemphatrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempOutfitBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempoutfitbodyrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempSarouelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempsarouelrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/hemp_bricks_slab.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_bricks_slab.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_slab_top.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempBricksSlabBlock.java",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_slab_full.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_slab.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_bricks_slab.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_stairs_inner.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempBricksStairsBlock.java",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_stairs_outer.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_stairs.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_bricks_stairs.json",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_bricks_stairs.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_bricks_stairs.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempBricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_wall.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_wall_inventory.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempBricksWallBlock.java",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_wall_post.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_bricks_wall.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_bricks_wall_side_tall.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_bricks_wall.json",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_bricks_wall.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "WeedGrowerAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/weed_grower_advancement.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "HempTextilAchivements",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/hemp_textil_achivements.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "HempBrickAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/hemp_brick_advancement.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "HempBricksStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbricksstairsrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksStairsRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbricksstairsrecipe2.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbricksslabrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksSlabRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbricksslabrecipe2.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksWallRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbrickswallrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempBricksWallRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempbrickswallrecipe2.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "GanjaCraftCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ganja_tech_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WeedmanTest",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/client/renderer/WeedmanTestRenderer.java",
+          "src/main/java/net/mcreator/ganjatech/entity/WeedmanTestEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CannabutterItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/CannabutterItemItem.java",
+          "src/main/resources/assets/ganjatech/models/item/cannabutter_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MagicCookieRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/magiccookierecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CannabisSeedsAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/cannabis_seeds_advancement.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "LootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/loot_tables/loottable.json"
+        ]
+      }
+    },
+    {
+      "name": "EdiblesAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/edibles_advancement.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "CannabutterRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cannabutterrecipe2.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "MagicCookieEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/MagicCookieEffectsProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempFiberCraftedAdvancement",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/HempFiberCraftedAdvancementProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempBrickCraftedAdvancement",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/HempBrickCraftedAdvancementProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "CannabutterCraftedAdvancement",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/CannabutterCraftedAdvancementProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Weedcrop4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop4BlockEntity.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_4.json",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop4Block.java",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_4.json",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_4.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_4.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop4top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop4topBlock.java",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_4top.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_4top.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop4topBlockEntity.java",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_4top.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_4top.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop5top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop5topBlockEntity.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_5top.json",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_5top.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_5top.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_5top.json",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop5topBlock.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_6.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop6BlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_6.json",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop6Block.java",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_6.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_6.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop6top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_6top.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop6topBlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_6top.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_6top.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_6top.json",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop6topBlock.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop7Block.java",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop7BlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_7.json",
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_7.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_7.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_7.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Weedcrop7top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_7top.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_7top.json",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_7top.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop7topBlockEntity.java",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop7topBlock.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_7top.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "GoldenCannappleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/goldencannapplerecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "GoldenCannarotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/goldencannarotrecipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempSmoothieRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/recipes/brewing/HempSmoothieRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "Weedcrop5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/weedcrop_5.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/weedcrop_5.json",
+          "src/main/java/net/mcreator/ganjatech/block/Weedcrop5Block.java",
+          "src/main/resources/assets/ganjatech/blockstates/weedcrop_5.json",
+          "src/main/resources/assets/ganjatech/models/block/weedcrop_5.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Weedcrop5BlockEntity.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "StartTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/StartTimerProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GoldenCannapleEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_cannaple_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GoldenCannapleEffectsProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GoldenCannarotEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_cannarot_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GoldenCannarotEffectsProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "StartTimerGA",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_timer_ga",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/StartTimerGAProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "StartTimerGC",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start_timer_gc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/StartTimerGCProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "FlowerPotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/flower_pot_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BreakUnderBlockCrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_under_block_crop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/BreakUnderBlockCropProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "BreakUpperBlockCrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "break_upper_block_crop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/BreakUpperBlockCropProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "GrownCropByPlayerBreakCropBlockUnder",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grown_crop_by_player_break_crop_block_under",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/GrownCropByPlayerBreakCropBlockUnderProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "WeedOnFireBreaksBottom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_on_fire_breaks_bottom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/WeedOnFireBreaksBottomProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "WeedOnFireBreakUpperBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_on_fire_break_upper_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/WeedOnFireBreakUpperBlockProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "BernardRappaz64x64",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bernard_rappaz_64x_64",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "BobMarley48x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob_marley_48x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "BobMarley48x64",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bob_marley_48x_64",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "PineappleExpress48x64",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pineapple_express_32x48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Rihanna32x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rihanna_32x_32",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SmokingLadyVintage32x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoking_lady_vintage_32x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SnoopDogg32x64",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snoop_dogg_32x_64",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "SnoopDogg48x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snoop_dogg_48x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "TheDude32x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dude_32x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "VWt248x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_wt_248x_32",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedLeaf32x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_leaf_16x16",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant32x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_plant_32x_32",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant64x96",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_plant_64x_96",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant264x96",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_plant_264x_96",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant364x96",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_plant_364x_96",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant16x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_plant_16x_32",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "WeedPlant16x16",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_plant_16x_16",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "CannabisLeafParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_leaf_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/particles/cannabis_leaf_particle.json",
+          "src/main/java/net/mcreator/ganjatech/client/particle/CannabisLeafParticleParticle.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "WeedParticlesSpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_particles_spawn",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/WeedParticlesSpawnProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "CreeperLootGanjaDisc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_loot_ganja_disc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/CreeperLootGanjaDiscProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HowHigh32x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_high_32x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "UpInSmoke32x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "up_in_smoke_32x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Hendrix32x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hendrix_32x_32",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Hendrix48x48",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hendrix_48x_48",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Hempcrete",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hempcrete",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/HempcreteItem.java",
+          "src/main/resources/assets/ganjatech/models/item/hempcrete.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hempcrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempcrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "ConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "OrangeConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/orange_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "MagentaConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/magenta_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "LightBlueConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/light_blue_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "YellowConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/yellow_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "LimeConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/lime_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "PinkConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/pink_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "GrayConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/gray_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "LightGrayConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/light_gray_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CyanConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cyan_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "PurpleConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/purple_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlueConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/blue_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BrownConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/brown_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "GreenConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/green_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "RedConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/red_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BlackConcreteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_concrete_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/black_concrete_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempcretePowder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hempcrete_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/hempcrete_powder.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempcretePowderBlock.java",
+          "src/main/resources/assets/ganjatech/models/item/hempcrete_powder.json",
+          "src/main/resources/assets/ganjatech/blockstates/hempcrete_powder.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hempcrete_powder.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempcreteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hempcrete_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hempcrete_block.json",
+          "src/main/resources/assets/ganjatech/models/item/hempcrete_block.json",
+          "src/main/resources/assets/ganjatech/models/block/hempcrete_block.json",
+          "src/main/resources/assets/ganjatech/blockstates/hempcrete_block.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempcreteBlockBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempcretePowderUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hempcrete_powder_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/HempcretePowderUpdateTickProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempPlanksWoddyStuffPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/HempPlanksWoddyStuffPlanksBlock.java",
+          "src/main/resources/assets/ganjatech/models/item/hemp_planks_woddy_stuff_planks.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_planks_woddy_stuff_planks.json",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_planks_woddy_stuff_planks.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_planks.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_stairs_outer.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_stairs.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_stairs_inner.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempPlanksWoddyStuffStairsBlock.java",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_planks_woddy_stuff_stairs.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_planks_woddy_stuff_stairs.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_planks_woddy_stuff_stairs.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/hemp_planks_woddy_stuff_slab.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempPlanksWoddyStuffSlabBlock.java",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_slab.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_planks_woddy_stuff_slab.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_slab_top.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_planks_woddy_stuff_slab.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_slab_full.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/hemp_planks_woddy_stuff_fence.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence_post.json",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_planks_woddy_stuff_fence.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempPlanksWoddyStuffFenceBlock.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_planks_woddy_stuff_fence.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence_inventory.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/hemp_planks_woddy_stuff_fence_gate.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence_gate_open.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_planks_woddy_stuff_fence_gate.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempPlanksWoddyStuffFenceGateBlock.java",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence_gate.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_planks_woddy_stuff_fence_gate_wall.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_planks_woddy_stuff_fence_gate.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempPlanksWoddyStuffPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_planks_woddy_stuff_planks_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_planks_woddy_stuff_stairs_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_planks_woddy_stuff_slab_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_planks_woddy_stuff_fence_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_planks_woddy_stuff_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempPlanksWoddyStuffStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_planks_woddy_stuff_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_planks_woddy_stuff_stick_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempcretePowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hempcrete_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hempcrete_powder_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempFlour",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_flour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/hemp_flour.json",
+          "src/main/java/net/mcreator/ganjatech/item/HempFlourItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempFlourRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_flour_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_flour_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "BreadAltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_alt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/bread_alt_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CookieAltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookie_alt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cookie_alt_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_top_right.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_top_right_open.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_top_left.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_bottom_left.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_bottom_right_open.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_door.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_door.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_bottom_left_open.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_bottom_right.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempDoorBlock.java",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_door.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_door_top_left_open.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_door_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "WeedPipe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/weed_pipe.json",
+          "src/main/java/net/mcreator/ganjatech/item/WeedPipeItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "IndicaPipe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/indica_pipe.json",
+          "src/main/java/net/mcreator/ganjatech/item/IndicaPipeItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "WoodenPipeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pipe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/wooden_pipe_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipeHempplanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pipe_hempplanks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/wooden_pipe_hempplanks_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipeRecipeMiror",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pipe_recipe_miror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/wooden_pipe_recipe_miror.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "WoodenPipehemplanksRecipeMiror",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pipehemplanks_recipe_miror",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/wooden_pipehemplanks_recipe_miror.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/SativaSeedsItem.java",
+          "src/main/resources/assets/ganjatech/models/item/sativa_seeds.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Sativacrop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/sativacrop.json",
+          "src/main/java/net/mcreator/ganjatech/block/SativacropBlock.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/SativacropBlockEntity.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "IndicaPipeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_pipe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/indica_pipe_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "FlipFlopRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flip_flop_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/flip_flop_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "IndicaAdcancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_adcancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/indica_adcancement.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "HempTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/hemp_trapdoor_top.json",
+          "src/main/resources/assets/ganjatech/blockstates/hemp_trapdoor.json",
+          "src/main/resources/assets/ganjatech/models/item/hemp_trapdoor.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_trapdoor.json",
+          "src/main/resources/assets/ganjatech/models/block/hemp_trapdoor_open.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/hemp_trapdoor.json",
+          "src/main/java/net/mcreator/ganjatech/block/HempTrapdoorBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "HempTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "Sativacrop1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_1.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop1BlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_1.json",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_1.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop1Block.java",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_1.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_2.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop2Block.java",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_2.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop2BlockEntity.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_2.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_2.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_3.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop3BlockEntity.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_3.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_3.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop3Block.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_3.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop4",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_4.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_4.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop4BlockEntity.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_4.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop4Block.java",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_4.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop4top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_4top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop4topBlockEntity.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_4top.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop4topBlock.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_4top.json",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_4top.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_4top.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop5",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_5.json",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_5.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop5Block.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_5.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop5BlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_5.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop5top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_5top",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop5topBlockEntity.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_5top.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_5top.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_5top.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop5topBlock.java",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_5top.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop6",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_6.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_6.json",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_6.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop6Block.java",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop6BlockEntity.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_6.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop6middle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_6middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_6middle.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_6middle.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_6middle.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop6middleBlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_6middle.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop6middleBlock.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop6top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_6top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_6top.json",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_6top.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_6top.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop6topBlock.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_6top.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop6topBlockEntity.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop7",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_7.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop7BlockEntity.java",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_7.json",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_7.json",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_7.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop7Block.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop7middle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_7middle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop7middleBlock.java",
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_7middle.json",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_7middle.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_7middle.json",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_7middle.json",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop7middleBlockEntity.java"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "Sativacrop7top",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativacrop_7top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/loot_tables/blocks/sativacrop_7top.json",
+          "src/main/resources/assets/ganjatech/models/item/sativacrop_7top.json",
+          "src/main/resources/assets/ganjatech/models/block/sativacrop_7top.json",
+          "src/main/java/net/mcreator/ganjatech/block/Sativacrop7topBlock.java",
+          "src/main/java/net/mcreator/ganjatech/block/entity/Sativacrop7topBlockEntity.java",
+          "src/main/resources/assets/ganjatech/blockstates/sativacrop_7top.json"
+        ]
+      },
+      "path": "~/weed-crop"
+    },
+    {
+      "name": "SativaSeedsRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_seeds_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaSeedsRightClickProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "IndicaPipeEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_pipe_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/IndicaPipeEffectsProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaUpdateTickProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaGrowingCropByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_growing_crop_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaGrowingCropByExplosionProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaGrownCropByExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_grown_crop_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaGrownCropByExplosionProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaGrownCropByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_grown_crop_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaGrownCropByPlayerProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/sativa_bud.json",
+          "src/main/java/net/mcreator/ganjatech/item/SativaBudItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CookedSeedsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_seeds_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cooked_seeds_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CookedSeedsRecipeFireCamp",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_seeds_recipe_fire_camp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cooked_seeds_recipe_fire_camp.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CookedSeedsRecipeCampFire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_seeds_recipe_camp_fire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cooked_seeds_recipe_camp_fire.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "CookedSeedsRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_seeds_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cooked_seeds_recipe_2.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSpliff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_spliff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/SativaSpliffItem.java",
+          "src/main/resources/assets/ganjatech/models/item/sativa_spliff.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SativaSpliffEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_spliff_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaSpliffEffectProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaBongHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_bong_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaBongHitProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "CannabutterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabutter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/cannabutter_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaSpliffRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_spliff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/sativa_spliff_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaBong",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_bong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/SativaBongItem.java",
+          "src/main/resources/assets/ganjatech/models/item/sativa_bong.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SativaPipe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_pipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/sativa_pipe.json",
+          "src/main/java/net/mcreator/ganjatech/item/SativaPipeItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SativaPipeEffects",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_pipe_effects",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SativaPipeEffectsProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "SativaAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/advancements/sativa_advancement.json"
+        ]
+      },
+      "path": "~/advancement"
+    },
+    {
+      "name": "SativaBongRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_bong_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/sativa_bong_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SativaPipeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_pipe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/sativa_pipe_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "SeedsAdvancement",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/SeedsAdvancementProcedure.java"
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "HempFlourSativa",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_flour_sativa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_flour_sativa.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempFirestrater",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_firestrater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/HempFirestraterItem.java",
+          "src/main/resources/assets/ganjatech/models/item/hemp_firestrater.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempFirestarterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_firestarter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/hemp_firestarter_recipe.json"
+        ]
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "HempStemFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_stem_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "GanjaDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ganja_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/ganja_disc.json",
+          "src/main/java/net/mcreator/ganjatech/item/GanjaDiscItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempBaleFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_bale_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "MagicCookie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_cookie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/MagicCookieItem.java",
+          "src/main/resources/assets/ganjatech/models/item/magic_cookie.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GoldenCannapple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_cannapple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/golden_cannapple.json",
+          "src/main/java/net/mcreator/ganjatech/item/GoldenCannappleItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GoldenCannarot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_cannarot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/GoldenCannarotItem.java",
+          "src/main/resources/assets/ganjatech/models/item/golden_cannarot.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "HempSmoothie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_smoothie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/HempSmoothieItem.java",
+          "src/main/resources/assets/ganjatech/models/item/hemp_smoothie.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "IndicaPlantSpawningFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_plant_spawning_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/worldgen/configured_feature/indica_plant_spawning_feature.json",
+          "src/main/resources/data/ganjatech/forge/biome_modifier/indica_plant_spawning_feature_biome_modifier.json",
+          "src/main/resources/data/ganjatech/worldgen/placed_feature/indica_plant_spawning_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "CookedSeeds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/CookedSeedsItem.java",
+          "src/main/resources/assets/ganjatech/models/item/cooked_seeds.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SativaPlantSpawningFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sativa_plant_spawning_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/forge/biome_modifier/sativa_plant_spawning_feature_biome_modifier.json",
+          "src/main/resources/data/ganjatech/worldgen/configured_feature/sativa_plant_spawning_feature.json",
+          "src/main/resources/data/ganjatech/worldgen/placed_feature/sativa_plant_spawning_feature.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "HempFirestarterFuel",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hemp_firestarter_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/recipe"
+    },
+    {
+      "name": "IndicaSpliffEffectlvl2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_spliff_effectlvl_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/IndicaSpliffEffectlvl2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Splifflvl2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splifflvl_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/Splifflvl2Item.java",
+          "src/main/resources/assets/ganjatech/models/item/splifflvl_2.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Splifflvl3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splifflvl_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/Splifflvl3Item.java",
+          "src/main/resources/assets/ganjatech/models/item/splifflvl_3.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "IndicaSpliffEffectlvl3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indica_spliff_effectlvl_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/procedures/IndicaSpliffEffectlvl3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedure"
+    },
+    {
+      "name": "Trim",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/trim.json",
+          "src/main/java/net/mcreator/ganjatech/item/TrimItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RStrainShake",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_strain_shake",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/r_strain_shake.json",
+          "src/main/java/net/mcreator/ganjatech/item/RStrainShakeItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RStrainHQBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_strain_hq_bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/r_strain_hq_bud.json",
+          "src/main/java/net/mcreator/ganjatech/item/RStrainHQBudItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Baggie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baggie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/BaggieItem.java",
+          "src/main/resources/assets/ganjatech/models/item/baggie.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RStrainDriedHQBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_strain_dried_hq_bud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/RStrainDriedHQBudItem.java",
+          "src/main/resources/assets/ganjatech/models/item/r_strain_dried_hq_bud.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RStrainDriedBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_strain_dried_bud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/RStrainDriedBudItem.java",
+          "src/main/resources/assets/ganjatech/models/item/r_strain_dried_bud.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RStrainBaggedHQBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_strain_bagged_hq_bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/r_strain_bagged_hq_bud.json",
+          "src/main/java/net/mcreator/ganjatech/item/RStrainBaggedHQBudItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RStrainBaggedBud",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_strain_bagged_bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/r_strain_bagged_bud.json",
+          "src/main/java/net/mcreator/ganjatech/item/RStrainBaggedBudItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Rterp",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rterp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/RterpBlock.java",
+          "src/main/resources/assets/ganjatech/blockstates/rterp.json",
+          "src/main/resources/assets/ganjatech/models/block/rterp.json",
+          "src/main/resources/assets/ganjatech/models/item/rterp_bucket.json",
+          "src/main/java/net/mcreator/ganjatech/fluid/RterpFluid.java",
+          "src/main/java/net/mcreator/ganjatech/fluid/types/RterpFluidType.java",
+          "src/main/java/net/mcreator/ganjatech/item/RterpItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RawOilR",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_oil_r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/block/RawOilRBlock.java",
+          "src/main/java/net/mcreator/ganjatech/fluid/types/RawOilRFluidType.java",
+          "src/main/resources/assets/ganjatech/models/block/raw_oil_r.json",
+          "src/main/resources/assets/ganjatech/blockstates/raw_oil_r.json",
+          "src/main/java/net/mcreator/ganjatech/fluid/RawOilRFluid.java",
+          "src/main/java/net/mcreator/ganjatech/item/RawOilRItem.java",
+          "src/main/resources/assets/ganjatech/models/item/raw_oil_r_bucket.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "RefOilR",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ref_oil_r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/fluid/types/RefOilRFluidType.java",
+          "src/main/resources/assets/ganjatech/blockstates/ref_oil_r.json",
+          "src/main/java/net/mcreator/ganjatech/item/RefOilRItem.java",
+          "src/main/resources/assets/ganjatech/models/item/ref_oil_r_bucket.json",
+          "src/main/java/net/mcreator/ganjatech/block/RefOilRBlock.java",
+          "src/main/java/net/mcreator/ganjatech/fluid/RefOilRFluid.java",
+          "src/main/resources/assets/ganjatech/models/block/ref_oil_r.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "VCartR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v_cart_r",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/VCartRItem.java",
+          "src/main/resources/assets/ganjatech/models/item/v_cart_r.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Vpen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vpen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ganjatech/item/VpenItem.java",
+          "src/main/resources/assets/ganjatech/models/item/vpen.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "VapeR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vape_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ganjatech/models/item/vape_r.json",
+          "src/main/java/net/mcreator/ganjatech/item/VapeRItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BaggedHQBud",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bagged_hq_bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ganjatech/recipes/bagged_hq_bud.json"
+        ]
+      },
+      "path": "~/recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "smoking",
+      "files": [
+        "smoking"
+      ],
+      "category": "player",
+      "subtitle": "smoking spliff"
+    },
+    {
+      "name": "bonghit",
+      "files": [
+        "bonghit"
+      ],
+      "category": "player",
+      "subtitle": "hitting bong"
+    },
+    {
+      "name": "randomcoughing",
+      "files": [
+        "coughing"
+      ],
+      "category": "player",
+      "subtitle": "Coughing"
+    },
+    {
+      "name": "ganjadisc",
+      "files": [
+        "ganjadisc"
+      ],
+      "category": "music",
+      "subtitle": "Playing ganjadisc music"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:RefOilR",
+      "~CUSTOM:RawOilR",
+      "~CUSTOM:Rterp",
+      "~CUSTOM:Weedcrop5",
+      "~CUSTOM:Weedcrop7",
+      "~CUSTOM:Weedcrop6top",
+      "~CUSTOM:Weedcrop6",
+      "~CUSTOM:Weedcrop5top",
+      "~CUSTOM:Weedcrop4top",
+      "~CUSTOM:Weedcrop3",
+      "~CUSTOM:Weedcrop2",
+      "~CUSTOM:Weedcrop1"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:HempPlanksWoddyStuffSlab",
+      "~CUSTOM:HempBricksSlab"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HempcreteBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:HempTrapdoor",
+      "~CUSTOM:HempDoor",
+      "~CUSTOM:HempPlanksWoddyStuffPlanks"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HempcreteBlock",
+      "~CUSTOM:HempcretePowder"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:HempPlanksWoddyStuffFence"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:HempBricksWall"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:HempcretePowder"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:HempPlanksWoddyStuffStairs",
+      "~CUSTOM:HempBricksStairs"
+    ],
+    "ITEMS:forge:hempplankswoddystuff_log": [
+      "CUSTOM:HempPlanksWoddyStuffWood",
+      "CUSTOM:HempPlanksWoddyStuffLog"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:GanjaDisc"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.ganjatech.sativacrop_6top": "Sativa stage 4",
+      "item.ganjacraft.weedmantest_spawn_egg": "Weedman Spawn Egg",
+      "subtitles.ganjadisc": "Playing ganjadisc music",
+      "painting.ganjacraft.weed_plant_16x_16.title": "Weed Plant 1 6x 1 6",
+      "painting.ganjacraft.up_in_smoke_32x_48.author": "Unknown",
+      "painting.ganjatech.weed_plant_16x_32.title": "Weed Plant 1 6x 3 2",
+      "painting.ganjatech.weed_plant_64x_96.title": "Weed Plant 6 4x 9 6",
+      "advancements.cannabis_seeds_advancement.descr": "Try to plant your seeds and harvest your first weed plant !",
+      "advancements.ediblesadvancement.title": "Is it a good idea to eat that ?",
+      "advancements.hemp_brick_advancement.descr": "Did you know hemp can do really good isolating and non-flammable hempcrete, bricks or planks ?",
+      "item.ganjacraft.ganjadisc.desc": "Original music in production...",
+      "entity.ganjacraft.weedmantest": "Weedman",
+      "item.ganjatech.sativa_pipe": "Sativa pipe",
+      "item.ganjacraft.sativa_pipe": "Sativa pipe",
+      "painting.ganjacraft.bernard_rappaz_64x_64.author": "Unknown",
+      "block.ganjatech.hempcrete_powder": "Hempcrete Powder",
+      "item.ganjacraft.hemp_brick": "Hemp Brick",
+      "painting.ganjatech.snoop_dogg_48x_48.author": "Unknown",
+      "item.ganjacraft.hemp_stem": "Hemp stem",
+      "item.ganjatech.raw_oil_r_bucket": "Raw Oil R Bucket",
+      "block.ganjatech.ref_oil_r": "Raw Oil R",
+      "painting.ganjatech.pineapple_express_32x48.author": "Unknown",
+      "item.ganjacraft.hempoutfit_leggings": "Hemp Harem Pants",
+      "item_group.ganjacraft.ganja_craft_creative_tab": "Ganja Craft",
+      "painting.ganjacraft.bob_marley_48x_64.title": "Bob Marley 4 8x 6 4",
+      "painting.ganjacraft.pineapple_express_32x48.author": "Unknown",
+      "painting.ganjatech.weed_plant_32x_32.author": "Unknown",
+      "painting.ganjatech.smoking_lady_vintage_32x_48.title": "Smoking Lady Vintage 3 2x 4 8",
+      "painting.ganjatech.weed_plant_364x_96.title": "Weed Plant 3 6 4x 9 6",
+      "item.ganjatech.magic_cookie": "Magic Cookie",
+      "painting.ganjatech.weed_plant_264x_96.title": "Weed Plant 2 6 4x 9 6",
+      "item.ganjacraft.goldencannapple": "Golden Cannapple",
+      "advancements.edibles_advancement.title": "Is it a good idea to eat that ?",
+      "block.ganjatech.hemp_bricks": "Hemp Bricks",
+      "item.ganjacraft.hemp_outfit_leggings": "Hemp Harem Pants",
+      "block.ganjatech.weedcrop_6top": "Weedcrop stage 6 top",
+      "item.ganjatech.r_strain_hq_bud": "Indica Bud",
+      "block.ganjacraft.weedcrop_1": "Weedcrop stage 1",
+      "item.ganjacraft.hempoutfitbody": "Hemp Outfit Body",
+      "painting.ganjatech.hendrix_32x_32.title": "Hendrix 3 2x 3 2",
+      "painting.ganjatech.hendrix_48x_48.title": "Hendrix 4 8x 4 8",
+      "painting.ganjacraft.smoking_lady_vintage_32x_48.title": "Smoking Lady Vintage 3 2x 4 8",
+      "painting.ganjacraft.rihanna_32x_32.author": "Unknown",
+      "painting.ganjacraft.bob_marley_48x_64.author": "Unknown",
+      "block.ganjacraft.weedcrop_6": "Weedcrop stage 6 bottom",
+      "block.ganjacraft.weedcrop_7": "Weedcrop stage 7 bottom",
+      "painting.ganjatech.v_wt_248x_32.author": "Unknown",
+      "item.ganjatech.empty_bong": "Empty Bong",
+      "block.ganjacraft.weedcrop_2": "Weedcrop stage 2",
+      "item.ganjatech.sativa_seeds": "Sativa cannabis seeds",
+      "block.ganjacraft.hempcrete_block": "Hempcrete Block",
+      "block.ganjacraft.weedcrop_3": "Weed crop stage 3",
+      "block.ganjacraft.weedcrop_4": "Weedcrop stage 4",
+      "block.ganjacraft.weedcrop_5": "Weedcrop stage 5 bottom",
+      "painting.ganjacraft.v_wt_248x_32.title": "V Wt 2 4 8x 3 2",
+      "item.ganjatech.indica_bud": "R Strain Bud",
+      "painting.ganjatech.weed_leaf_16x16.author": "Unknown",
+      "advancements.weed_grower_advancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
+      "block.ganjacraft.hempbricks": "Hemp Bricks",
+      "item.ganjacraft.indica_pipe": "Indica pipe",
+      "subtitles.bonghit": "hitting bong",
+      "item.ganjacraft.magiccookie": "Magic Cookie",
+      "painting.ganjatech.v_wt_248x_32.title": "V Wt 2 4 8x 3 2",
+      "item.ganjatech.sativa_bud": "Sativa Bud",
+      "item.ganjacraft.hemp_fiber_item": "Hemp fiber",
+      "block.ganjatech.weedcrop_5top": "Weedcrop stage 5 top",
+      "advancements.weedgroweradvancement.title": "Weed Grower",
+      "item.ganjacraft.hempsmoothie": "Hemp Tea",
+      "block.ganjacraft.sativacrop_6top": "Sativa stage 4",
+      "advancements.hemptextilachivements.descr": "Did you know that you can do high quality textils and paper using hemp ? And it\u0027s less water-consumming than cotton :)",
+      "block.ganjatech.hemp_trapdoor": "Hemp Trapdoor",
+      "fluid.ganjatech.raw_oil_r": "Raw Oil R",
+      "item.ganjacraft.emptybong": "Empty Bong",
+      "advancements.sativa_advancement.title": "Sativa Adcancement",
+      "item.ganjacraft.hemp_outfit_chestplate": "Hemp Shirt",
+      "block.ganjatech.hemp_bricks_slab": "Hemp Bricks Slab",
+      "painting.ganjatech.up_in_smoke_32x_48.author": "Unknown",
+      "block.ganjacraft.hempbricksslab": "Hemp Bricks Slab",
+      "item.ganjacraft.sativa_seeds": "Sativa cannabis seeds",
+      "item.ganjatech.golden_cannarot": "Golden Cannarot",
+      "advancements.edibles_advancement.descr": "You have mad cannabutter, be carefull with edibles they always finish by kicking hard.",
+      "item.ganjatech.r_strain_dried_hq_bud": "Dried Bud",
+      "painting.ganjacraft.snoop_dogg_48x_48.author": "Unknown",
+      "advancements.hemp_textil_achivements.title": "Hemp Crafter",
+      "painting.ganjatech.snoop_dogg_32x_64.author": "Unknown",
+      "advancements.cannabis_seeds_advancement.title": "A new world with GanjaCraft",
+      "painting.ganjacraft.pineapple_express_32x48.title": "Pineapple Express 4 8x 6 4",
+      "painting.ganjatech.snoop_dogg_32x_64.title": "Snoop Dogg 3 2x 6 4",
+      "item.ganjatech.cooked_seeds": "Cooked cannabis seeds",
+      "item.ganjacraft.ganja_disc.description_0": "Credit : Mr Pink by Topher Mohr \u0026 AlexElena",
+      "block.ganjatech.sativacrop": "Sativa stage 0",
+      "advancements.ediblesadvancement.descr": "You have mad cannabutter, be carefull with edibles they always finish by kicking hard.",
+      "block.ganjacraft.sativacrop_7top": "Sativa stage 4",
+      "painting.ganjacraft.weed_plant_32x_32.title": "Weed Plant 3 2x 3 2",
+      "item.ganjacraft.indicabud": "Indica Bud",
+      "painting.ganjacraft.weed_leaf_16x16.title": "Weed Leaf 3 2x 3 2",
+      "item.ganjatech.rterp_bucket": "Rterp Bucket",
+      "item.ganjacraft.hemp_outfit_helmet": "Hemp Beannie",
+      "item.ganjatech.r_strain_bagged_bud": "Dried Bud",
+      "painting.ganjacraft.hendrix_32x_32.title": "Hendrix 3 2x 3 2",
+      "block.ganjacraft.weedcrop": "Weed Plant stage 0",
+      "block.ganjacraft.hemp_planks_woddy_stuff_planks": "Hemp planks",
+      "item.ganjatech.hempcrete": "Hempcrete",
+      "painting.ganjatech.how_high_32x_48.title": "How High 3 2x 4 8",
+      "block.ganjacraft.sativacrop": "Sativa stage 0",
+      "painting.ganjatech.the_dude_32x_48.author": "Unknown",
+      "block.ganjacraft.hemp_bale": "Hemp Bale",
+      "painting.ganjacraft.hendrix_48x_48.title": "Hendrix 4 8x 4 8",
+      "block.ganjacraft.hemp_planks_woddy_stuff_slab": "Hemp planks slab",
+      "block.ganjacraft.hempbricksstairs": "Hemp Bricks Stairs",
+      "block.ganjatech.hemp_bricks_stairs": "Hemp Bricks Stairs",
+      "item.ganjatech.ref_oil_r_bucket": "Raw Oil R Bucket",
+      "advancements.cannabisseedsadvancement.descr": "Try to plant your seeds and harvest your first weed plant !",
+      "painting.ganjacraft.up_in_smoke_32x_48.title": "Up In Smoke 3 2x 4 8",
+      "item.ganjatech.hemp_flour": "Hemp Flour",
+      "block.ganjatech.hemp_bricks_wall": "Hemp Bricks Wall",
+      "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
+      "item.ganjacraft.magic_cookie": "Magic Cookie",
+      "painting.ganjacraft.bob_marley_48x_48.author": "Unknown",
+      "item.ganjatech.golden_cannapple": "Golden Cannapple",
+      "block.ganjacraft.sativacrop_7middle": "Sativa stage 4",
+      "painting.ganjacraft.rihanna_32x_32.title": "Rihanna 3 2x 3 2",
+      "item.ganjatech.v_cart_r": "Strain R Vape Cart",
+      "painting.ganjatech.bob_marley_48x_48.title": "Bob Marley 4 8x 4 8",
+      "advancements.indica_adcancement.title": "Indica Adcancement",
+      "painting.ganjatech.hendrix_48x_48.author": "Unknown",
+      "block.ganjacraft.hempbale": "Hemp Bale",
+      "block.ganjatech.weedcrop_4": "Weedcrop stage 4",
+      "item.ganjatech.vape_r": "Vape R",
+      "block.ganjatech.weedcrop_5": "Weedcrop stage 5 bottom",
+      "block.ganjatech.weedcrop_6": "Weedcrop stage 6 bottom",
+      "block.ganjatech.weedcrop_7": "Weedcrop stage 7 bottom",
+      "item.ganjacraft.goldencannarot": "Golden Cannarot",
+      "painting.ganjacraft.how_high_32x_48.title": "How High 3 2x 4 8",
+      "painting.ganjatech.how_high_32x_48.author": "Unknown",
+      "block.ganjacraft.hemp_planks_woddy_stuff_stairs": "Hemp planks stairs",
+      "block.ganjatech.sativacrop_7top": "Sativa stage 4",
+      "block.ganjacraft.hemp_door": "Hemp door",
+      "advancements.weed_grower_advancement.title": "Weed Grower",
+      "block.ganjatech.hemp_bale": "Hemp Bale",
+      "item.ganjacraft.ganjadisc": "Ganja Disc",
+      "block.ganjacraft.hempbrickswall": "Hemp Bricks Wall",
+      "block.ganjatech.weedcrop_1": "Weedcrop stage 1",
+      "item.ganjatech.r_strain_shake": "Indica Bud",
+      "painting.ganjacraft.weed_plant_64x_96.title": "Weed Plant 6 4x 9 6",
+      "block.ganjatech.weedcrop_2": "Weedcrop stage 2",
+      "block.ganjatech.weedcrop_3": "Weed crop stage 3",
+      "painting.ganjatech.bernard_rappaz_64x_64.author": "Unknown",
+      "item.ganjatech.hemp_outfit_leggings": "Hemp Harem Pants",
+      "block.ganjatech.hemp_planks_woddy_stuff_planks": "Hemp planks",
+      "block.ganjacraft.weedcrop_4top": "Weedcrop stage 4 top",
+      "painting.ganjatech.pineapple_express_32x48.title": "Pineapple Express 4 8x 6 4",
+      "painting.ganjacraft.the_dude_32x_48.author": "Unknown",
+      "item.ganjatech.indica_pipe": "Indica pipe",
+      "painting.ganjacraft.weed_plant_264x_96.title": "Weed Plant 2 6 4x 9 6",
+      "painting.ganjatech.weed_plant_64x_96.author": "Unknown",
+      "block.ganjatech.weedcrop_4top": "Weedcrop stage 4 top",
+      "item.ganjatech.ganja_disc.desc": "Original music in production...",
+      "block.ganjacraft.weedcrop_6top": "Weedcrop stage 6 top",
+      "painting.ganjatech.weed_plant_364x_96.author": "Unknown",
+      "item.ganjacraft.indica_bud": "Indica Bud",
+      "block.ganjatech.sativacrop_1": "Sativa stage 1",
+      "item.ganjacraft.sativa_bud": "Sativa Bud",
+      "block.ganjatech.sativacrop_2": "Sativa stage 2",
+      "subtitles.coughing": "coughing",
+      "block.ganjacraft.hemp_bricks_wall": "Hemp Bricks Wall",
+      "block.ganjatech.sativacrop_6middle": "Sativa stage 4",
+      "advancements.hemp_textil_achivements.descr": "Did you know that you can do high quality textils and paper using hemp ? And it\u0027s less water-consumming than cotton :)",
+      "item.ganjacraft.sativa_bong": "Sativa bong",
+      "item.ganjacraft.hempoutfit_chestplate": "Hemp Shirt",
+      "painting.ganjatech.hendrix_32x_32.author": "Unknown",
+      "item.ganjacraft.hempoutfitboots": "Hemp Outfit Boots",
+      "item.ganjacraft.hempoutfit_helmet": "Hemp Beannie",
+      "painting.ganjatech.weed_leaf_16x16.title": "Weed Leaf 3 2x 3 2",
+      "item.ganjacraft.ganja_disc.desc": "Original music in production...",
+      "item.ganjacraft.empty_bong": "Empty Bong",
+      "painting.ganjatech.bernard_rappaz_64x_64.title": "Bernard Rappaz 6 4x 6 4",
+      "advancements.sativa_advancement.descr": "It\u0027s time to enjoy life and smoke !",
+      "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
+      "advancements.hemptextilachivements.title": "Hemp Crafter",
+      "painting.ganjacraft.hendrix_48x_48.author": "Unknown",
+      "item.ganjatech.weed_pipe": "Wooden pipe",
+      "block.ganjacraft.sativacrop_6middle": "Sativa stage 4",
+      "advancements.weedgroweradvancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
+      "painting.ganjatech.rihanna_32x_32.title": "Rihanna 3 2x 3 2",
+      "item.ganjatech.hemp_outfit_boots": "Hemp FlipFlop",
+      "block.ganjatech.sativacrop_7": "Sativa stage 4",
+      "item.ganjacraft.cooked_seeds": "Cooked cannabis seeds",
+      "item.ganjatech.ganja_disc.description_0": "Credit : Mr Pink by Topher Mohr \u0026 AlexElena",
+      "item.ganjacraft.indicaspliff": "Indica spliff",
+      "block.ganjatech.sativacrop_3": "Sativa stage 3",
+      "block.ganjatech.sativacrop_4": "Sativa stage 4",
+      "block.ganjatech.weedcrop": "Weed Plant stage 0",
+      "block.ganjatech.sativacrop_5": "Sativa stage 4",
+      "block.ganjatech.sativacrop_6": "Sativa stage 4",
+      "item.ganjatech.r_strain_dried_bud": "Dried Bud",
+      "item.ganjacraft.cannabutter_item": "Cannabutter",
+      "painting.ganjacraft.weed_plant_264x_96.author": "Unknown",
+      "item.ganjatech.hemp_firestrater": "Hemp firestrater",
+      "item.ganjatech.indicaspliff": "R Strain Fly",
+      "painting.ganjatech.snoop_dogg_48x_48.title": "Snoop Dogg 4 8x 4 8",
+      "item.ganjacraft.indica_bong": "Indica bong",
+      "painting.ganjacraft.bob_marley_48x_48.title": "Bob Marley 4 8x 4 8",
+      "painting.ganjacraft.the_dude_32x_48.title": "The Dude 3 2x 4 8",
+      "painting.ganjatech.bob_marley_48x_48.author": "Unknown",
+      "item.ganjacraft.hempoutfithelmet": "Hemp Hat",
+      "block.ganjatech.hemp_door": "Hemp door",
+      "item.ganjacraft.ganja_disc": "Ganja Disc",
+      "painting.ganjacraft.weed_plant_16x_16.author": "Unknown",
+      "item.ganjatech.trim": "Trim",
+      "item.ganjacraft.hemp_firestrater": "Hemp firestrater",
+      "painting.ganjacraft.snoop_dogg_48x_48.title": "Snoop Dogg 4 8x 4 8",
+      "painting.ganjatech.weed_plant_16x_32.author": "Unknown",
+      "subtitles.randomcoughing": "Coughing",
+      "item.ganjacraft.hempcrete": "Hempcrete",
+      "advancements.hempbrickadvancement.title": "Hemp Builder",
+      "block.ganjatech.hemp_planks_woddy_stuff_stairs": "Hemp planks stairs",
+      "advancements.hemp_brick_advancement.title": "Hemp Builder",
+      "item.ganjatech.hemp_outfit_chestplate": "Hemp Shirt",
+      "block.ganjacraft.weedcrop_5top": "Weedcrop stage 5 top",
+      "item.ganjacraft.weedseeds": "Indica cannabis seeds",
+      "item.ganjatech.sativa_spliff": "Sativa Fly",
+      "painting.ganjacraft.bernard_rappaz_64x_64.title": "Bernard Rappaz 6 4x 6 4",
+      "painting.ganjacraft.snoop_dogg_32x_64.title": "Snoop Dogg 3 2x 6 4",
+      "painting.ganjacraft.how_high_32x_48.author": "Unknown",
+      "block.ganjacraft.hemp_trapdoor": "Hemp Trapdoor",
+      "block.ganjatech.rterp": "Rterp",
+      "item.ganjacraft.hemp_smoothie": "Hemp Tea",
+      "painting.ganjacraft.snoop_dogg_32x_64.author": "Unknown",
+      "item.ganjatech.sativa_bong": "Sativa bong",
+      "item.ganjatech.weedseeds": "Indica cannabis seeds",
+      "item.ganjatech.hemp_outfit_helmet": "Hemp Beannie",
+      "fluid.ganjatech.rterp": "Rterp",
+      "painting.ganjacraft.weed_plant_364x_96.author": "Unknown",
+      "painting.ganjacraft.weed_leaf_16x16.author": "Unknown",
+      "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
+      "block.ganjacraft.sativacrop_5": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_6": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_7": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_1": "Sativa stage 1",
+      "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
+      "block.ganjacraft.sativacrop_2": "Sativa stage 2",
+      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
+      "block.ganjacraft.sativacrop_3": "Sativa stage 3",
+      "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "painting.ganjacraft.smoking_lady_vintage_32x_48.author": "Unknown",
+      "block.ganjatech.hemp_planks_woddy_stuff_fence_gate": "Hemp fence gate",
+      "block.ganjacraft.sativacrop_4": "Sativa stage 4",
+      "painting.ganjatech.weed_plant_16x_16.title": "Weed Plant 1 6x 1 6",
+      "item.ganjatech.splifflvl_2": "R Strain Reg Joint",
+      "item.ganjatech.splifflvl_3": "R Strain HQ Joint",
+      "item.ganjatech.vpen": "Vape Pen",
+      "painting.ganjacraft.weed_plant_32x_32.author": "Unknown",
+      "item.ganjacraft.hempbrick": "Hemp Brick",
+      "item.ganjacraft.hempstem": "Hemp stem",
+      "block.ganjacraft.hemp_bricks_slab": "Hemp Bricks Slab",
+      "block.ganjatech.weedcrop_7top": "Weedcrop stage 7 top",
+      "itemGroup.tabganjacraftcreativetab": "Ganja Craft",
+      "block.ganjacraft.sativacrop_4top": "Sativa stage 4",
+      "block.ganjatech.sativacrop_5top": "Sativa stage 4",
+      "block.ganjacraft.weedcrop_7top": "Weedcrop stage 7 top",
+      "item.ganjacraft.golden_cannapple": "Golden Cannapple",
+      "advancements.hempbrickadvancement.descr": "Did you know hemp can do really good isolating and non-flammable hempcrete, bricks or planks ?",
+      "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
+      "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
+      "block.ganjacraft.weedcrop3": "Weed crop stage 3",
+      "block.ganjacraft.weedcrop4": "Weedcrop stage 4",
+      "painting.ganjacraft.weed_plant_64x_96.author": "Unknown",
+      "painting.ganjacraft.weed_plant_16x_32.title": "Weed Plant 1 6x 3 2",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence": "Hemp fence",
+      "item.ganjacraft.hempoutfit_boots": "Hemp FlipFlop",
+      "item.ganjacraft.golden_cannarot": "Golden Cannarot",
+      "painting.ganjacraft.v_wt_248x_32.author": "Unknown",
+      "item.ganjatech.hemp_smoothie": "Hemp Tea",
+      "subtitles.smoking": "smoking spliff",
+      "painting.ganjatech.smoking_lady_vintage_32x_48.author": "Unknown",
+      "block.ganjatech.sativacrop_4top": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_5top": "Sativa stage 4",
+      "item.ganjatech.hemp_stem": "Hemp stem",
+      "painting.ganjatech.bob_marley_48x_64.title": "Bob Marley 4 8x 6 4",
+      "painting.ganjatech.weed_plant_264x_96.author": "Unknown",
+      "item.ganjacraft.hemp_outfit_boots": "Hemp FlipFlop",
+      "block.ganjacraft.hempcrete_powder": "Hempcrete Powder",
+      "item.ganjacraft.hempoutfitlegs": "Hemp Sarouel",
+      "painting.ganjatech.the_dude_32x_48.title": "The Dude 3 2x 4 8",
+      "painting.ganjatech.rihanna_32x_32.author": "Unknown",
+      "painting.ganjatech.bob_marley_48x_64.author": "Unknown",
+      "block.ganjatech.hempcrete_block": "Hempcrete Block",
+      "item_group.ganjatech.ganja_tech_creative_tab": "Ganja Tech",
+      "item.ganjacraft.hemp_flour": "Hemp Flour",
+      "item.ganjatech.indica_bong": "Indica bong",
+      "item.ganjacraft.cannabutteritem": "Cannabutter",
+      "item.ganjacraft.hempfiberitem": "Hemp fiber",
+      "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
+      "painting.ganjatech.weed_plant_16x_16.author": "Unknown",
+      "painting.ganjacraft.weed_plant_16x_32.author": "Unknown",
+      "item.ganjatech.cannabutter_item": "Cannabutter",
+      "painting.ganjatech.up_in_smoke_32x_48.title": "Up In Smoke 3 2x 4 8",
+      "advancements.indica_adcancement.descr": "It\u0027s time to relax and smoke !",
+      "item.ganjatech.hemp_fiber_item": "Hemp fiber",
+      "block.ganjatech.sativacrop_7middle": "Sativa stage 4",
+      "painting.ganjacraft.hendrix_32x_32.author": "Unknown",
+      "item.ganjacraft.weed_pipe": "Wooden pipe",
+      "block.ganjatech.hemp_planks_woddy_stuff_fence": "Hemp fence",
+      "item.ganjatech.ganja_disc": "Ganja Disc",
+      "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
+      "fluid.ganjatech.ref_oil_r": "Raw Oil R",
+      "advancements.cannabisseedsadvancement.title": "A new world with GanjaCraft",
+      "item.ganjatech.baggie": "Baggie",
+      "item.ganjacraft.sativa_spliff": "Sativa spliff",
+      "painting.ganjatech.weed_plant_32x_32.title": "Weed Plant 3 2x 3 2",
+      "entity.ganjacraft.weedman_test": "Weedman",
+      "item.ganjatech.hemp_brick": "Hemp Brick",
+      "entity.ganjatech.weedman_test": "Weedman",
+      "item.ganjatech.r_strain_bagged_hq_bud": "Dried Bud",
+      "block.ganjacraft.hemp_bricks_stairs": "Hemp Bricks Stairs",
+      "block.ganjatech.raw_oil_r": "Raw Oil R",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "Hemp fence gate",
+      "block.ganjacraft.hemp_bricks": "Hemp Bricks",
+      "painting.ganjacraft.weed_plant_364x_96.title": "Weed Plant 3 6 4x 9 6",
+      "block.ganjatech.hemp_planks_woddy_stuff_slab": "Hemp planks slab",
+      "item.ganjacraft.indicabong": "Indica bong"
+    },
+    "fr_fr": {
+      "block.ganjatech.sativacrop_6top": "Sativa stage 4",
+      "subtitles.ganjadisc": "Musique du ganjadisc",
+      "item.ganjacraft.weedmantest_spawn_egg": "Weedman Spawn Egg",
+      "painting.ganjacraft.weed_plant_16x_16.title": "Weed Plant 1 6x 1 6",
+      "painting.ganjacraft.up_in_smoke_32x_48.author": "Unknown",
+      "painting.ganjatech.weed_plant_16x_32.title": "Weed Plant 1 6x 3 2",
+      "painting.ganjatech.weed_plant_64x_96.title": "Weed Plant 6 4x 9 6",
+      "advancements.cannabis_seeds_advancement.descr": "Try to plant your seeds and harvest your first weed plant !",
+      "advancements.ediblesadvancement.title": "Est-ce une bonne idée de manger ça ?",
+      "advancements.hemp_brick_advancement.descr": "Did you know hemp can do really good isolating and non-flammable hempcrete, bricks or planks ?",
+      "item.ganjacraft.ganjadisc.desc": "Musique originale en production...",
+      "entity.ganjacraft.weedmantest": "Weedman",
+      "item.ganjatech.sativa_pipe": "Sativa pipe",
+      "item.ganjacraft.sativa_pipe": "Pipe de sativa",
+      "painting.ganjacraft.bernard_rappaz_64x_64.author": "Unknown",
+      "block.ganjatech.hempcrete_powder": "Hempcrete Powder",
+      "item.ganjacraft.hemp_brick": "Hemp Brick",
+      "painting.ganjatech.snoop_dogg_48x_48.author": "Unknown",
+      "item.ganjacraft.hemp_stem": "Hemp stem",
+      "item.ganjatech.raw_oil_r_bucket": "Raw Oil R Bucket",
+      "block.ganjatech.ref_oil_r": "Raw Oil R",
+      "painting.ganjatech.pineapple_express_32x48.author": "Unknown",
+      "item.ganjacraft.hempoutfit_leggings": "Sarouel en chanvre",
+      "item_group.ganjacraft.ganja_craft_creative_tab": "Ganja Craft",
+      "painting.ganjacraft.bob_marley_48x_64.title": "Bob Marley 4 8x 6 4",
+      "painting.ganjacraft.pineapple_express_32x48.author": "Unknown",
+      "painting.ganjatech.weed_plant_32x_32.author": "Unknown",
+      "painting.ganjatech.smoking_lady_vintage_32x_48.title": "Smoking Lady Vintage 3 2x 4 8",
+      "painting.ganjatech.weed_plant_364x_96.title": "Weed Plant 3 6 4x 9 6",
+      "item.ganjatech.magic_cookie": "Magic Cookie",
+      "painting.ganjatech.weed_plant_264x_96.title": "Weed Plant 2 6 4x 9 6",
+      "item.ganjacraft.goldencannapple": "Cannapomme dorée",
+      "advancements.edibles_advancement.title": "Is it a good idea to eat that ?",
+      "block.ganjatech.hemp_bricks": "Hemp Bricks",
+      "item.ganjacraft.hemp_outfit_leggings": "Hemp Harem Pants",
+      "block.ganjatech.weedcrop_6top": "Weedcrop stage 6 top",
+      "item.ganjatech.r_strain_hq_bud": "Indica Bud",
+      "block.ganjacraft.weedcrop_1": "Weedcrop stage 1",
+      "item.ganjacraft.hempoutfitbody": "Chemise en chanvre",
+      "painting.ganjatech.hendrix_32x_32.title": "Hendrix 3 2x 3 2",
+      "painting.ganjatech.hendrix_48x_48.title": "Hendrix 4 8x 4 8",
+      "painting.ganjacraft.smoking_lady_vintage_32x_48.title": "Smoking Lady Vintage 3 2x 4 8",
+      "painting.ganjacraft.rihanna_32x_32.author": "Unknown",
+      "painting.ganjacraft.bob_marley_48x_64.author": "Unknown",
+      "block.ganjacraft.weedcrop_6": "Weedcrop stage 6 bottom",
+      "block.ganjacraft.weedcrop_7": "Weedcrop stage 7 bottom",
+      "painting.ganjatech.v_wt_248x_32.author": "Unknown",
+      "item.ganjatech.empty_bong": "Empty Bong",
+      "block.ganjacraft.weedcrop_2": "Weedcrop stage 2",
+      "item.ganjatech.sativa_seeds": "Sativa cannabis seeds",
+      "block.ganjacraft.hempcrete_block": "Bloc de ciment de chanvre",
+      "block.ganjacraft.weedcrop_3": "Weed crop stage 3",
+      "block.ganjacraft.weedcrop_4": "Weedcrop stage 4",
+      "block.ganjacraft.weedcrop_5": "Weedcrop stage 5 bottom",
+      "painting.ganjacraft.v_wt_248x_32.title": "V Wt 2 4 8x 3 2",
+      "item.ganjatech.indica_bud": "Indica Bud",
+      "painting.ganjatech.weed_leaf_16x16.author": "Unknown",
+      "advancements.weed_grower_advancement.descr": "You can do a lot of thing with the cannabis plant, so before rolling your spliff try to craft other stuff",
+      "block.ganjacraft.hempbricks": "Briques de chanvre",
+      "item.ganjacraft.indica_pipe": "Pipe d\u0027indica",
+      "item.ganjacraft.magiccookie": "Cookie Magique",
+      "subtitles.bonghit": "Douille de bong",
+      "painting.ganjatech.v_wt_248x_32.title": "V Wt 2 4 8x 3 2",
+      "item.ganjatech.sativa_bud": "Sativa Bud",
+      "item.ganjacraft.hemp_fiber_item": "Hemp fiber",
+      "block.ganjatech.weedcrop_5top": "Weedcrop stage 5 top",
+      "advancements.weedgroweradvancement.title": "Cultivateur",
+      "item.ganjacraft.hempsmoothie": "Thé au chanvre",
+      "block.ganjacraft.sativacrop_6top": "Sativa stage 4",
+      "advancements.hemptextilachivements.descr": "Saviez-vous que vous pouvez faire des textiles et du papier de haute qualité en utilisant du chanvre ? Et il consomme moins d\u0027eau que le coton :)",
+      "block.ganjatech.hemp_trapdoor": "Hemp Trapdoor",
+      "fluid.ganjatech.raw_oil_r": "Raw Oil R",
+      "item.ganjacraft.emptybong": "Bong vide",
+      "advancements.sativa_advancement.title": "Succès sativa",
+      "item.ganjacraft.hemp_outfit_chestplate": "Hemp Shirt",
+      "block.ganjatech.hemp_bricks_slab": "Hemp Bricks Slab",
+      "painting.ganjatech.up_in_smoke_32x_48.author": "Unknown",
+      "block.ganjacraft.hempbricksslab": "Dalle en briques de chanvre",
+      "item.ganjacraft.sativa_seeds": "Graines de cannabis sativa",
+      "item.ganjatech.golden_cannarot": "Golden Cannarot",
+      "advancements.edibles_advancement.descr": "You have mad cannabutter, be carefull with edibles they always finish by kicking hard.",
+      "item.ganjatech.r_strain_dried_hq_bud": "Dried Bud",
+      "painting.ganjacraft.snoop_dogg_48x_48.author": "Unknown",
+      "advancements.hemp_textil_achivements.title": "Hemp Crafter",
+      "painting.ganjatech.snoop_dogg_32x_64.author": "Unknown",
+      "advancements.cannabis_seeds_advancement.title": "A new world with GanjaCraft",
+      "painting.ganjacraft.pineapple_express_32x48.title": "Pineapple Express 4 8x 6 4",
+      "painting.ganjatech.snoop_dogg_32x_64.title": "Snoop Dogg 3 2x 6 4",
+      "item.ganjatech.cooked_seeds": "Cooked cannabis seeds",
+      "item.ganjacraft.ganja_disc.description_0": "Credit : Mr Pink by Topher Mohr \u0026 AlexElena",
+      "block.ganjatech.sativacrop": "Sativa stage 0",
+      "advancements.ediblesadvancement.descr": "Vous avez fait du beurre de Marrakech, attention avec ça, la space bouffe finit toujours par taper fort.",
+      "block.ganjacraft.sativacrop_7top": "Sativa stage 4",
+      "painting.ganjacraft.weed_plant_32x_32.title": "Weed Plant 3 2x 3 2",
+      "item.ganjacraft.indicabud": "Fleur d\u0027indica",
+      "painting.ganjacraft.weed_leaf_16x16.title": "Weed Leaf 3 2x 3 2",
+      "item.ganjatech.rterp_bucket": "Rterp Bucket",
+      "item.ganjacraft.hemp_outfit_helmet": "Hemp Beannie",
+      "item.ganjatech.r_strain_bagged_bud": "Dried Bud",
+      "painting.ganjacraft.hendrix_32x_32.title": "Hendrix 3 2x 3 2",
+      "block.ganjacraft.weedcrop": "Weed Plant stage 0",
+      "block.ganjacraft.hemp_planks_woddy_stuff_planks": "Planches de chanvre",
+      "item.ganjatech.hempcrete": "Hempcrete",
+      "painting.ganjatech.how_high_32x_48.title": "How High 3 2x 4 8",
+      "block.ganjacraft.sativacrop": "Sativa stage 0",
+      "painting.ganjatech.the_dude_32x_48.author": "Unknown",
+      "block.ganjacraft.hemp_bale": "Hemp Bale",
+      "painting.ganjacraft.hendrix_48x_48.title": "Hendrix 4 8x 4 8",
+      "block.ganjacraft.hemp_planks_woddy_stuff_slab": "Dalle de planche de chanvre",
+      "block.ganjacraft.hempbricksstairs": "Escalier en brique de chanvre",
+      "block.ganjatech.hemp_bricks_stairs": "Hemp Bricks Stairs",
+      "item.ganjatech.ref_oil_r_bucket": "Raw Oil R Bucket",
+      "advancements.cannabisseedsadvancement.descr": "Essayez de planter vos graines et récoltez votre première plante de cannabis !",
+      "painting.ganjacraft.up_in_smoke_32x_48.title": "Up In Smoke 3 2x 4 8",
+      "item.ganjatech.hemp_flour": "Hemp Flour",
+      "block.ganjatech.hemp_bricks_wall": "Hemp Bricks Wall",
+      "block.ganjacraft.weedcrop7top": "Weedcrop stage 7 top",
+      "item.ganjacraft.magic_cookie": "Magic Cookie",
+      "painting.ganjacraft.bob_marley_48x_48.author": "Unknown",
+      "item.ganjatech.golden_cannapple": "Golden Cannapple",
+      "block.ganjacraft.sativacrop_7middle": "Sativa stage 4",
+      "painting.ganjacraft.rihanna_32x_32.title": "Rihanna 3 2x 3 2",
+      "item.ganjatech.v_cart_r": "Strain R Vape Cart",
+      "painting.ganjatech.bob_marley_48x_48.title": "Bob Marley 4 8x 4 8",
+      "advancements.indica_adcancement.title": "Indica Adcancement",
+      "painting.ganjatech.hendrix_48x_48.author": "Unknown",
+      "block.ganjacraft.hempbale": "Botte de chanvre",
+      "block.ganjatech.weedcrop_4": "Weedcrop stage 4",
+      "item.ganjatech.vape_r": "Vape R",
+      "block.ganjatech.weedcrop_5": "Weedcrop stage 5 bottom",
+      "block.ganjatech.weedcrop_6": "Weedcrop stage 6 bottom",
+      "block.ganjatech.weedcrop_7": "Weedcrop stage 7 bottom",
+      "item.ganjacraft.goldencannarot": "Cannarot dorée",
+      "painting.ganjacraft.how_high_32x_48.title": "How High 3 2x 4 8",
+      "painting.ganjatech.how_high_32x_48.author": "Unknown",
+      "block.ganjacraft.hemp_planks_woddy_stuff_stairs": "Escalier en planches de chanvre",
+      "block.ganjatech.sativacrop_7top": "Sativa stage 4",
+      "block.ganjacraft.hemp_door": "Porte de chanvre",
+      "advancements.weed_grower_advancement.title": "Weed Grower",
+      "block.ganjatech.hemp_bale": "Hemp Bale",
+      "item.ganjacraft.ganjadisc": "Ganja Disc",
+      "block.ganjacraft.hempbrickswall": "Mur en briques de chanvre",
+      "block.ganjatech.weedcrop_1": "Weedcrop stage 1",
+      "item.ganjatech.r_strain_shake": "Indica Bud",
+      "painting.ganjacraft.weed_plant_64x_96.title": "Weed Plant 6 4x 9 6",
+      "block.ganjatech.weedcrop_2": "Weedcrop stage 2",
+      "block.ganjatech.weedcrop_3": "Weed crop stage 3",
+      "painting.ganjatech.bernard_rappaz_64x_64.author": "Unknown",
+      "item.ganjatech.hemp_outfit_leggings": "Hemp Harem Pants",
+      "block.ganjatech.hemp_planks_woddy_stuff_planks": "Hemp planks",
+      "block.ganjacraft.weedcrop_4top": "Weedcrop stage 4 top",
+      "painting.ganjatech.pineapple_express_32x48.title": "Pineapple Express 4 8x 6 4",
+      "painting.ganjacraft.the_dude_32x_48.author": "Unknown",
+      "item.ganjatech.indica_pipe": "Indica pipe",
+      "painting.ganjacraft.weed_plant_264x_96.title": "Weed Plant 2 6 4x 9 6",
+      "painting.ganjatech.weed_plant_64x_96.author": "Unknown",
+      "block.ganjatech.weedcrop_4top": "Weedcrop stage 4 top",
+      "item.ganjatech.ganja_disc.desc": "Original music in production...",
+      "block.ganjacraft.weedcrop_6top": "Weedcrop stage 6 top",
+      "painting.ganjatech.weed_plant_364x_96.author": "Unknown",
+      "item.ganjacraft.indica_bud": "Indica Bud",
+      "block.ganjatech.sativacrop_1": "Sativa stage 1",
+      "item.ganjacraft.sativa_bud": "Fleur de sativa",
+      "block.ganjatech.sativacrop_2": "Sativa stage 2",
+      "subtitles.coughing": "tousse",
+      "block.ganjacraft.hemp_bricks_wall": "Hemp Bricks Wall",
+      "block.ganjatech.sativacrop_6middle": "Sativa stage 4",
+      "advancements.hemp_textil_achivements.descr": "Did you know that you can do high quality textils and paper using hemp ? And it\u0027s less water-consumming than cotton :)",
+      "item.ganjacraft.sativa_bong": "Bong de sativa",
+      "item.ganjacraft.hempoutfit_chestplate": "Chemise en chanvre",
+      "painting.ganjatech.hendrix_32x_32.author": "Unknown",
+      "item.ganjacraft.hempoutfitboots": "Tongues en chanvre",
+      "item.ganjacraft.hempoutfit_helmet": "Bonnet en chanvre",
+      "painting.ganjatech.weed_leaf_16x16.title": "Weed Leaf 3 2x 3 2",
+      "item.ganjacraft.ganja_disc.desc": "Original music in production...",
+      "item.ganjacraft.empty_bong": "Empty Bong",
+      "painting.ganjatech.bernard_rappaz_64x_64.title": "Bernard Rappaz 6 4x 6 4",
+      "advancements.hemptextilachivements.title": "Artisan du chanvre",
+      "block.ganjacraft.weedcrop6top": "Weedcrop stage 6 top",
+      "advancements.sativa_advancement.descr": "C\u0027est le moment de profiter et de fumer !",
+      "painting.ganjacraft.hendrix_48x_48.author": "Unknown",
+      "item.ganjatech.weed_pipe": "Wooden pipe",
+      "block.ganjacraft.sativacrop_6middle": "Sativa stage 4",
+      "advancements.weedgroweradvancement.descr": "Vous pouvez faire beaucoup de choses avec la plante de cannabis, alors avant de rouler votre spliff, essayez de fabriquer d\u0027autres trucs",
+      "painting.ganjatech.rihanna_32x_32.title": "Rihanna 3 2x 3 2",
+      "item.ganjatech.hemp_outfit_boots": "Hemp FlipFlop",
+      "block.ganjatech.sativacrop_7": "Sativa stage 4",
+      "item.ganjacraft.cooked_seeds": "Graines de cannabis cuites",
+      "item.ganjatech.ganja_disc.description_0": "Credit : Mr Pink by Topher Mohr \u0026 AlexElena",
+      "item.ganjacraft.indicaspliff": "Spliff d\u0027indica",
+      "block.ganjatech.sativacrop_3": "Sativa stage 3",
+      "block.ganjatech.sativacrop_4": "Sativa stage 4",
+      "block.ganjatech.weedcrop": "Weed Plant stage 0",
+      "block.ganjatech.sativacrop_5": "Sativa stage 4",
+      "block.ganjatech.sativacrop_6": "Sativa stage 4",
+      "item.ganjatech.r_strain_dried_bud": "Dried Bud",
+      "item.ganjacraft.cannabutter_item": "Cannabutter",
+      "painting.ganjacraft.weed_plant_264x_96.author": "Unknown",
+      "item.ganjatech.hemp_firestrater": "Hemp firestrater",
+      "item.ganjatech.indicaspliff": "Indica spliff",
+      "painting.ganjatech.snoop_dogg_48x_48.title": "Snoop Dogg 4 8x 4 8",
+      "item.ganjacraft.indica_bong": "Indica bong",
+      "painting.ganjacraft.bob_marley_48x_48.title": "Bob Marley 4 8x 4 8",
+      "painting.ganjacraft.the_dude_32x_48.title": "The Dude 3 2x 4 8",
+      "painting.ganjatech.bob_marley_48x_48.author": "Unknown",
+      "item.ganjacraft.hempoutfithelmet": "Bonnet en chanvre",
+      "block.ganjatech.hemp_door": "Hemp door",
+      "item.ganjacraft.ganja_disc": "Ganja Disc",
+      "painting.ganjacraft.weed_plant_16x_16.author": "Unknown",
+      "item.ganjatech.trim": "Trim",
+      "item.ganjacraft.hemp_firestrater": "Allume feu",
+      "painting.ganjacraft.snoop_dogg_48x_48.title": "Snoop Dogg 4 8x 4 8",
+      "painting.ganjatech.weed_plant_16x_32.author": "Unknown",
+      "subtitles.randomcoughing": "Tousse",
+      "item.ganjacraft.hempcrete": "Ciment de chanvre",
+      "advancements.hempbrickadvancement.title": "Maçon du chanvre",
+      "block.ganjatech.hemp_planks_woddy_stuff_stairs": "Hemp planks stairs",
+      "advancements.hemp_brick_advancement.title": "Hemp Builder",
+      "item.ganjatech.hemp_outfit_chestplate": "Hemp Shirt",
+      "block.ganjacraft.weedcrop_5top": "Weedcrop stage 5 top",
+      "item.ganjacraft.weedseeds": "Graines de cannabis indica",
+      "item.ganjatech.sativa_spliff": "Sativa spliff",
+      "painting.ganjacraft.bernard_rappaz_64x_64.title": "Bernard Rappaz 6 4x 6 4",
+      "painting.ganjacraft.snoop_dogg_32x_64.title": "Snoop Dogg 3 2x 6 4",
+      "painting.ganjacraft.how_high_32x_48.author": "Unknown",
+      "block.ganjacraft.hemp_trapdoor": "Trappe en chanvre",
+      "block.ganjatech.rterp": "Rterp",
+      "item.ganjacraft.hemp_smoothie": "Hemp Tea",
+      "painting.ganjacraft.snoop_dogg_32x_64.author": "Unknown",
+      "item.ganjatech.sativa_bong": "Sativa bong",
+      "item.ganjatech.weedseeds": "Indica cannabis seeds",
+      "item.ganjatech.hemp_outfit_helmet": "Hemp Beannie",
+      "fluid.ganjatech.rterp": "Rterp",
+      "painting.ganjacraft.weed_plant_364x_96.author": "Unknown",
+      "painting.ganjacraft.weed_leaf_16x16.author": "Unknown",
+      "block.ganjacraft.weedcrop5top": "Weedcrop stage 5 top",
+      "block.ganjacraft.sativacrop_5": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_6": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_7": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_1": "Sativa stage 1",
+      "block.ganjacraft.weedcrop5": "Weedcrop stage 5 bottom",
+      "block.ganjacraft.sativacrop_2": "Sativa stage 2",
+      "block.ganjacraft.weedcrop6": "Weedcrop stage 6 bottom",
+      "block.ganjacraft.sativacrop_3": "Sativa stage 3",
+      "block.ganjacraft.weedcrop7": "Weedcrop stage 7 bottom",
+      "painting.ganjacraft.smoking_lady_vintage_32x_48.author": "Unknown",
+      "block.ganjatech.hemp_planks_woddy_stuff_fence_gate": "Hemp fence gate",
+      "block.ganjacraft.sativacrop_4": "Sativa stage 4",
+      "painting.ganjatech.weed_plant_16x_16.title": "Weed Plant 1 6x 1 6",
+      "item.ganjatech.splifflvl_2": "R Strain Fly",
+      "item.ganjatech.splifflvl_3": "R Strain Reg Joint",
+      "item.ganjatech.vpen": "Strain R Vape Cart",
+      "painting.ganjacraft.weed_plant_32x_32.author": "Unknown",
+      "item.ganjacraft.hempstem": "Tige de chanvre",
+      "item.ganjacraft.hempbrick": "Brique de chanvre",
+      "block.ganjacraft.hemp_bricks_slab": "Hemp Bricks Slab",
+      "block.ganjatech.weedcrop_7top": "Weedcrop stage 7 top",
+      "itemGroup.tabganjacraftcreativetab": "GanjaCraft",
+      "block.ganjacraft.sativacrop_4top": "Sativa stage 4",
+      "block.ganjatech.sativacrop_5top": "Sativa stage 4",
+      "block.ganjacraft.weedcrop_7top": "Weedcrop stage 7 top",
+      "item.ganjacraft.golden_cannapple": "Golden Cannapple",
+      "advancements.hempbrickadvancement.descr": "Saviez-vous que le chanvre peut faire de très bonnes briques isolantes et ininflammables ?",
+      "block.ganjacraft.weedcrop1": "Weedcrop stage 1",
+      "block.ganjacraft.weedcrop2": "Weedcrop stage 2",
+      "block.ganjacraft.weedcrop3": "Weed crop stage 3",
+      "block.ganjacraft.weedcrop4": "Weedcrop stage 4",
+      "painting.ganjacraft.weed_plant_64x_96.author": "Unknown",
+      "painting.ganjacraft.weed_plant_16x_32.title": "Weed Plant 1 6x 3 2",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence": "Barrière de chanvre",
+      "item.ganjacraft.hempoutfit_boots": "Chaussure en chanvre",
+      "item.ganjacraft.golden_cannarot": "Golden Cannarot",
+      "painting.ganjacraft.v_wt_248x_32.author": "Unknown",
+      "item.ganjatech.hemp_smoothie": "Hemp Tea",
+      "subtitles.smoking": "Fume le spliff",
+      "painting.ganjatech.smoking_lady_vintage_32x_48.author": "Unknown",
+      "block.ganjatech.sativacrop_4top": "Sativa stage 4",
+      "block.ganjacraft.sativacrop_5top": "Sativa stage 4",
+      "item.ganjatech.hemp_stem": "Hemp stem",
+      "painting.ganjatech.bob_marley_48x_64.title": "Bob Marley 4 8x 6 4",
+      "painting.ganjatech.weed_plant_264x_96.author": "Unknown",
+      "item.ganjacraft.hemp_outfit_boots": "Hemp FlipFlop",
+      "block.ganjacraft.hempcrete_powder": "Poudre de ciment de chanvre",
+      "item.ganjacraft.hempoutfitlegs": "Sarouel en chanvre",
+      "painting.ganjatech.the_dude_32x_48.title": "The Dude 3 2x 4 8",
+      "painting.ganjatech.rihanna_32x_32.author": "Unknown",
+      "painting.ganjatech.bob_marley_48x_64.author": "Unknown",
+      "block.ganjatech.hempcrete_block": "Hempcrete Block",
+      "item_group.ganjatech.ganja_tech_creative_tab": "Ganja Tech",
+      "item.ganjacraft.hemp_flour": "Farine de chanvre",
+      "item.ganjatech.indica_bong": "Indica bong",
+      "item.ganjacraft.cannabutteritem": "Beurre de Marrakech",
+      "item.ganjacraft.hempfiberitem": "Fibre de chanvre",
+      "item.ganjacraft.weedmantest": "Weedman Spawn Egg",
+      "painting.ganjatech.weed_plant_16x_16.author": "Unknown",
+      "painting.ganjacraft.weed_plant_16x_32.author": "Unknown",
+      "item.ganjatech.cannabutter_item": "Cannabutter",
+      "painting.ganjatech.up_in_smoke_32x_48.title": "Up In Smoke 3 2x 4 8",
+      "advancements.indica_adcancement.descr": "C\u0027est le moment de se détendre et de fumer !",
+      "item.ganjatech.hemp_fiber_item": "Hemp fiber",
+      "block.ganjatech.sativacrop_7middle": "Sativa stage 4",
+      "painting.ganjacraft.hendrix_32x_32.author": "Unknown",
+      "item.ganjacraft.weed_pipe": "Pipe en bois",
+      "block.ganjatech.hemp_planks_woddy_stuff_fence": "Hemp fence",
+      "item.ganjatech.ganja_disc": "Ganja Disc",
+      "block.ganjacraft.weedcrop4top": "Weedcrop stage 4 top",
+      "fluid.ganjatech.ref_oil_r": "Raw Oil R",
+      "advancements.cannabisseedsadvancement.title": "Un nouveau monde avec GanjaCraft",
+      "item.ganjatech.baggie": "Baggie",
+      "item.ganjacraft.sativa_spliff": "Spliff de sativa",
+      "painting.ganjatech.weed_plant_32x_32.title": "Weed Plant 3 2x 3 2",
+      "entity.ganjacraft.weedman_test": "Weedman",
+      "item.ganjatech.hemp_brick": "Hemp Brick",
+      "entity.ganjatech.weedman_test": "Weedman",
+      "item.ganjatech.r_strain_bagged_hq_bud": "Dried Bud",
+      "block.ganjacraft.hemp_bricks_stairs": "Hemp Bricks Stairs",
+      "block.ganjatech.raw_oil_r": "Raw Oil R",
+      "block.ganjacraft.hemp_planks_woddy_stuff_fence_gate": "Portillon de chanvre",
+      "block.ganjacraft.hemp_bricks": "Hemp Bricks",
+      "painting.ganjacraft.weed_plant_364x_96.title": "Weed Plant 3 6 4x 9 6",
+      "block.ganjatech.hemp_planks_woddy_stuff_slab": "Hemp planks slab",
+      "item.ganjacraft.indicabong": "Bong d\u0027indica"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "recipe",
+        "children": []
+      },
+      {
+        "name": "weed-crop",
+        "children": []
+      },
+      {
+        "name": "advancement",
+        "children": []
+      },
+      {
+        "name": "procedure",
+        "children": []
+      },
+      {
+        "name": "Paintings",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ganjatech",
+    "modName": "GanjaTech",
+    "version": "0.0.1",
+    "description": "Weed growing and processing mod",
+    "author": "PopPunkNerd",
+    "websiteURL": "https://github.com/warlon-mhite/ganjacraft",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "ganjacraft_logobanner",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "join the cannadiscord | contribute on github",
+    "modElementsPackage": "net.mcreator.ganjatech"
+  },
+  "mcreatorVersion": 202500113416
+}
