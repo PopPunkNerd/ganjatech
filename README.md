@@ -1,90 +1,73 @@
-![GanjaCraft logo](https://i.imgur.com/NOPozgV.png)
-THE MOST AMBICIOUS STONER MOD IN MINECRAFT HISTORY<br/>
-This is a beta release ! Textures, craft recipes, mechanics, etc... may change in the future with feedbacks and my vision of the v1.0 of this mod.<br/>
-<br/>
-I do not encourage recreationnal marijuana or illegal drugs uses ! This is in-game content made for fun.<br/>
-Refer to your country legislation.<br/>
-![sativa cannapdate logo](https://i.imgur.com/CVfP2b0.png)<br/>
-Work in Progress | Create the community that this mod deserve
-<br/>
-If you want to contribute I've open-sourced this mod you can contribute here on GitHub<br/>
-Please send me your suggestions and bug reports on GitHub or by email :  warlon.doctrinality@simplelogin.fr<br/>
-You can also join the Cannadiscord https://discord.gg/xykRFac64Q<br/>
+# GanjaTech
 
-STEP 1 : Find seeds by breaking tall grass and tall fern or founding wild indica !<br/>
- <br/>
-STEP 2 : Do your stuff and see them growing over days<br/>
-<br/>
-STEP 3 : Harvest & craft<br/>
-<br/>
-The plant is a renewable way to craft bricks, planks, paper, wool, concrete & sticks (planed to add a few more in the future.)<br/>
-<br/>
-<ul>FEATURES :</ul>
-<li>Plant and harvest indica cannabis</li>
-<li>Indica grows 2 blocks high</li>
-<li>smoke indica spliff (restistance)</li>
-<li>Plant and harvest sativa</li>
-<li>Sativa grows 3 blocks high</li>
-<li>Sativa gives speed & night vision</li>
-<li>harvest hemp stemp and indica or sativa buds</li>
-<li>use hemp stem and hemp bale as fuel</li>
-<li>craft blocks and items</li>
-<li>GanjaDisc</li>
-<li>smoke indica or sativa bong (stronger effects)</li>
-<li>eating edibles</li>
-<li>advancements</li>
-<li>21 new paintings</li>
-<li>Hempcrete</li>
-<br/>
-<br/>
-<ul>NEW CRAFTS : </ul>
-<li>Indica Spliff</li>
-<li>Hemp fiber</li>
-<li>Hemp brick (item)</li>
-<li>Hemp bricks (block)</li>
-<li>Hemp bricks slab</li>
-<li>Hemp bricks stairs</li>
-<li>Hemp bricks wall</li>
-<li>Hemp planks</li>
-<li>Hemp planks slabs</li>
-<li>Hemp planks stairs</li>
-<li>Hemp fence</li>
-<li>Hemp fencegate</li>
-<li>Hemp trapdoor</li>
-<li>Hemp door</li>
-<li>Hemp Bale</li>
-<li>Hemp outfit (armor - hat + body + harem pants)</li>
-<li>Bong</li>
-<li>Cannabutter</li>
-<li>Magic cookie</li>
-<li>golden cannaple</li>
-<li>golden cannarot</li>
-<li>hemp smoothie</li>
-<li>Concrete Powder (all colors)</li>
+**GanjaTech** is a Forge mod for Minecraft 1.20.1 focused on growing, processing, and mastering the green arts of cannabis cultivation. Build your farm, extract potent products, and blaze new trails in automation and herbal alchemy. From seed to smoke, the whole process is yours to control.
 
-<br/>
-<ul>ALTERNATIVES CRAFTS :</ul>
-<li>Paper</li>
-<li>Green Wool</li>
-<li>Stick</li>
-<li>Green Dye</li>
-<br/>
-<ul>Languages supported :</ul>
-<li>English en_us</li>
-<li>Français fr_fr</li>
-<br/>
-<br/>
-<ul>UPCOMMING :</ul>
-<li>CBD cannabis</li>
-<li>Bonemeal support</li>
-<li>Spawnable structures with loot</li>
-<li>Original Sound for GanjaDisc</li>
-<li>Custom creatures</li>
-<li>Custom villagers</li>
-<li>new items</li>
-<li>new blocks</li>
-<li>new plants</li>
-<li>new effects</li>
-<li>and more +++</li>
+---
 
-You will be able to add this mod in your modpack but you will have to mention it.
+## 🌿 Core Features
+
+- Grow custom cannabis plants with multiple strains
+- Process raw materials into powerful or trippy consumables
+- Extract oils, roll products, or brew psychedelic blends
+- Automate your grow with grinders, dryers, infusers, and more
+- Full tech-tree progression through GanjaTech machines
+- Bonus fun gear like the **Smoke-Blasting Leaf Blower™**
+
+---
+
+## 🎮 Installation
+
+1. Make sure you're running **Minecraft 1.20.1** with **Forge Mod Loader 47.4.0** installed.
+2. Drop `ganjatech-x.x.x.jar` into your `mods/` folder.
+3. Launch the game and start building your herbal empire.
+
+---
+
+## 🧪 Mod Development
+
+GanjaTech is built using standard Forge mod tools. Easily clone and build from source using:
+
+```bash
+./gradlew build
+```
+
+The resulting `.jar` will appear in `build/libs/`.
+
+---
+
+## 🧾 License
+
+This project is licensed under the **GNU General Public License v3 (GPLv3)**.
+
+You may:
+
+- Use, modify, and share the code
+- Include it in public or private modpacks
+
+You must:
+
+- Preserve the GPLv3 license and attribution
+- Make your source code available with any distributions
+
+See: [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt)
+
+---
+
+## 🙏 Credits
+
+**GanjaTech** is a rebranded and expanded fork of [GanjaCraft](https://github.com/warlon-mhite/ganjacraft) by **[warlon-mhite](https://github.com/warlon-mhite)**.
+
+Development by **PopPunkNerd**  
+Textures and visual design by **Nikki English**
+
+Much love and respect to the original creator for laying the groundwork.
+
+---
+
+## 💬 Community & Contributions
+
+Have ideas, feedback, or dank suggestions? Open an issue, submit a pull request, or join our Discord!
+
+👉 **[Join the GanjaTech Discord](https://discord.gg/gFyBHKHryT)**
+
+Keep it green. Keep it groovy.
