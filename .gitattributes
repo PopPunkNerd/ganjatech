@@ -1,0 +1,6 @@
+# Auto-detect text files and normalize to LF in the repo,
+# but let checkouts use your OS-native EOL (CRLF on Windows, LF on macOS/Linux)
+* text=auto
+
+# Always store JSON files with LF in the repo and in your working copy
+*.json text eol=lf
